@@ -1,4 +1,4 @@
-# 🛡️ Self-Defense — Dijital Güvenlik Rehberi
+# 🛡️ PersonalSecurity-TR — Dijital Güvenlik Rehberi
 "Translations (EN, RU etc.) are welcome! Feel free to fork and submit a Pull Request." (Çevirilere açığım, fork edip bana gönderebilirsiniz)
 > Kişisel siber güvenliğini kendin yönet. Sade, uygulanabilir, Türkçe.
 
