@@ -42,13 +42,13 @@ Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scrip
 
 ## 📋 İçindekiler
 
-| # | Dosya | Konu | Seviye |
-|---|-------|------|--------|
-| 1 | [📧 mailProtect.md](mailProtect.md) | E-posta & hesap güvenliği | Temel |
-| 2 | [🔑 passwordGenerator.py](passwordGenerator.py) | Güçlü parola üretici (script) | Temel |
-| 3 | [📱 155_911.md](155_911.md) | Acil ihbar & sosyal mühendislik | Temel |
-| 4 | [💻 deviceHardening.md](deviceHardening.md) | Cihaz sertleştirme & şifreleme | Orta |
-| 5 | [🎣 pishingBilgilendirme.md](pishingBilgilendirme.md) | Oltalama saldırısı tanıma | Orta |
+| # | Dosya | Konu |
+|---|-------|------|
+| 1 | [📧 mailProtect.md](mailProtect.md) | E-posta & hesap güvenliği |
+| 2 | [🔑 passwordGenerator.py](passwordGenerator.py) | Güçlü parola üretici (script) |
+| 3 | [📱 155_911.md](155_911.md) | Acil ihbar & sosyal mühendislik |
+| 4 | [💻 deviceHardening.md](deviceHardening.md) | Cihaz sertleştirme & şifreleme |
+| 5 | [🎣 pishingBilgilendirme.md](pishingBilgilendirme.md) | Oltalama saldırısı tanıma |
 
 ---
 
