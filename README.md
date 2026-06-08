@@ -12,7 +12,7 @@
 İnternette her gün milyonlarca insan farkında olmadan saldırıya uğruyor. Sahte bir e-posta bağlantısına tıklamak, zayıf bir parola kullanmak ya da telefona gelen "bankandan arıyorum" mesajına inanmak — bunların hepsi gerçek ve yaygın tehditler. Ama korunmak için siber güvenlik uzmanı olmana gerek yok.
 
 Bu rehber **sıradan bir kullanıcı** için yazıldı. Teknik bilgin olmasa da olur. **Telefonundan da bilgisayarından da** adımların büyük çoğunluğunu uygulayabilirsin — her rehber hangi cihazda ne yapılacağını açıkça belirtiyor.
-a
+
 ---
 
 ### 🔍 İçeride Ne Var?
