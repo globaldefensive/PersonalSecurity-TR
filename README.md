@@ -93,7 +93,7 @@ E-posta hesabını korumanın adım adım rehberi: 2FA / Passkey kurulumu, e-pos
 ### 🔑 passwordGenerator.py
 Telefonunuzdan veya Bilgisayarinizdan python kullanarak kendi kriptografik olarak güvenli parolanızı üretebilirsiniz: her karakter grubundan minimum garanti, Shannon entropi skoru ve güç etiketi, otomatik pano kopyalama, tam CLI desteği.
 
-> ÖNEMLİ: https://github.com/globaldefensive/Self-Defense kaynağından indirdiğinizden emin olun, 3.kişilerin attığı programlara güvenmeyin
+> ÖNEMLİ: https://github.com/globaldefensive/PersonalSecurity-TR kaynağından indirdiğinizden emin olun, 3.kişilerin attığı programlara güvenmeyin
 
 ### 📱 155_911.md
 Siber suç ihbarı ve sosyal mühendislik farkındalığı: 155 / BTK / Emniyet Siber Suç ihbar adımları, şantaj durumunda ne yapılır, sosyal mühendislik saldırı türleri.
