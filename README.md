@@ -32,6 +32,18 @@ Sahte bankacılık SMS'i, kurumsal görünümlü e-posta, "hesabın askıya alı
 **Şantaj veya siber saldırıya uğrarsan ne yaparsın?**
 `155_911.md` sadece acil numaraları değil, sosyal mühendislik saldırılarını, şantaj durumunda izlenecek yolu ve BTK / Emniyet Siber Suç birimine nasıl ihbarda bulunacağını da kapsıyor. Paniklemeden, sırayla ne yapman gerektiğini bilmek zaman kazandırır.
 
+**Sosyal medya hesaplarını gizli tut.**
+Instagram, Twitter/X, LinkedIn, Facebook, TikTok ve WhatsApp için Türkçe arayüz üzerinden adım adım gizlilik ayarları — `socialMediaPrivacy.md` ile varsayılan ayarların seni nasıl ifşa ettiğini ve nasıl düzelteceğini öğren.
+
+**Çocuğunu internette koru.**
+`parentalGuide.md` grooming, deepfake tehditler, siber zorbalık ve ebeveyn denetim araçlarını yaş gruplarına göre anlatıyor. "Çocuğumla bu konuyu nasıl konuşurum?" sorusuna da cevap var.
+
+**Bilgilerin sızdı mı? Ne yapacaksın?**
+`dataBreachResponse.md` ile haveibeenpwned çıktısını nasıl okuyacağını, hangi sızıntı türünün ne anlama geldiğini ve Türkiye'de kimlik hırsızlığına karşı hangi adımları atacağını öğren.
+
+**Kafede veya havalimanında güvende kal.**
+`publicWifi.md` ortak Wi-Fi'de gerçek riskleri abartmadan anlatıyor — evil twin saldırısı nedir, VPN olmadan minimum ne yapmalısın, hangi işlemleri ertele.
+
 ---
 
 ### 📱 Telefon mu, Bilgisayar mı?
@@ -49,6 +61,10 @@ Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scrip
 | 3 | [📱 155_911.md](155_911.md) | Acil ihbar & sosyal mühendislik |
 | 4 | [💻 deviceHardening.md](deviceHardening.md) | Cihaz sertleştirme & şifreleme |
 | 5 | [🎣 pishingBilgilendirme.md](pishingBilgilendirme.md) | Oltalama saldırısı tanıma |
+| 6 | [📲 socialMediaPrivacy.md](socialMediaPrivacy.md) | Sosyal medya gizlilik ayarları |
+| 7 | [👨‍👩‍👧 parentalGuide.md](parentalGuide.md) | Ebeveyn rehberi & çocuk güvenliği |
+| 8 | [🔓 dataBreachResponse.md](dataBreachResponse.md) | Veri sızıntısı sonrası eylem planı |
+| 9 | [📶 publicWifi.md](publicWifi.md) | Ortak Wi-Fi güvenliği |
 
 ---
 
@@ -57,11 +73,13 @@ Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scrip
 ### 30 Dakikada Temel Koruma
 
 ```
-✅ 1. Tüm önemli hesaplara 2FA ekle        → mailProtect.md
-✅ 2. Parola yöneticisine geç              → DEVICE_HARDENING.md
-✅ 3. Güçlü parola üret                   → passwordGenerator.py
-✅ 4. Tarayıcını sertleştir               → DEVICE_HARDENING.md
-✅ 5. Phishing tuzaklarını tanımayı öğren → PHISHING_GUIDE.md
+✅ 1. Tüm önemli hesaplara 2FA ekle              → mailProtect.md
+✅ 2. Parola yöneticisine geç                    → deviceHardening.md
+✅ 3. Güçlü parola üret                          → passwordGenerator.py
+✅ 4. Tarayıcını sertleştir                      → deviceHardening.md
+✅ 5. Phishing tuzaklarını tanımayı öğren        → pishingBilgilendirme.md
+✅ 6. Sosyal medya gizlilik ayarlarını düzenle   → socialMediaPrivacy.md
+✅ 7. E-postanın sızdırılıp sızdırılmadığını kontrol et → dataBreachResponse.md
 ```
 
 ### Parola Üreticisini Çalıştır
@@ -88,21 +106,33 @@ python passwordGenerator.py --help
 ## 🗂️ Dosya Açıklamaları
 
 ### 📧 mailProtect.md
-E-posta hesabını korumanın adım adım rehberi: 2FA / Passkey kurulumu, e-posta alias kullanımı, piksel takipçi engelleme, VPN & DNS şifreleme.
+E-posta hesabını korumanın adım adım rehberi: 2FA / Passkey kurulumu, e-posta alias kullanımı, piksel takipçi engelleme, oturum çerezi saldırıları ve kurtarma zinciri.
 
 ### 🔑 passwordGenerator.py
-Telefonunuzdan veya Bilgisayarinizdan python kullanarak kendi kriptografik olarak güvenli parolanızı üretebilirsiniz: her karakter grubundan minimum garanti, Shannon entropi skoru ve güç etiketi, otomatik pano kopyalama, tam CLI desteği.
+Kriptografik olarak güvenli parola üretici: her karakter grubundan minimum garanti, Shannon entropi skoru ve güç etiketi, otomatik pano kopyalama, tam CLI desteği.
 
 > ÖNEMLİ: https://github.com/globaldefensive/PersonalSecurity-TR kaynağından indirdiğinizden emin olun, 3.kişilerin attığı programlara güvenmeyin
 
 ### 📱 155_911.md
-Siber suç ihbarı ve sosyal mühendislik farkındalığı: 155 / BTK / Emniyet Siber Suç ihbar adımları, şantaj durumunda ne yapılır, sosyal mühendislik saldırı türleri.
+Siber kriz protokolü: RAT/hack durumunda dakika dakika ne yapılır, hesap çalındıysa kurtarma adımları, şantaj ve tehdit mesajlarında eylem planı, BTK / Emniyet Siber Suç ihbar kılavuzu.
 
 ### 💻 deviceHardening.md
-Cihaz ve tarayıcı güvenliği: Windows / macOS / Linux disk şifreleme, tarayıcı eklentileri, parola yöneticisi kurulumu, otomatik güncelleme & ekran kilidi.
+Cihaz ve tarayıcı güvenliği: Windows / macOS / Linux disk şifreleme, tarayıcı eklentileri, parola yöneticisi kurulumu, VPN & DNS şifreleme, Wi-Fi güvenliği.
 
 ### 🎣 pishingBilgilendirme.md
-Oltalama saldırısı tanıma ve önleme: URL & e-posta adres analizi, spear phishing / smishing / vishing türleri, gerçek dünya senaryolar, saldırı sonrası adımlar.
+Oltalama saldırısı tanıma ve önleme: URL & e-posta adres analizi, spear phishing / smishing / vishing türleri, deepfake dolandırıcılıkları, gerçek dünya senaryolar.
+
+### 📲 socialMediaPrivacy.md
+Instagram, Twitter/X, LinkedIn, Facebook, TikTok ve WhatsApp için Türkçe arayüz menü yollarıyla adım adım gizlilik ayarları. Varsayılan ayarlar seni değil, platformu korur.
+
+### 👨‍👩‍👧 parentalGuide.md
+Yaş gruplarına göre online riskler, grooming sürecinin uyarı işaretleri, deepfake sextortion tehdidi, siber zorbalık türleri ve ebeveyn denetim araçları. Çocuğunla bu konuları nasıl konuşacağına dair somut rehber.
+
+### 🔓 dataBreachResponse.md
+Haveibeenpwned çıktısını anlama kılavuzu, sızıntı türüne göre öncelik sırası, Türkiye'de kimlik hırsızlığı kontrolü (e-Devlet, Findeks/KKB), credential stuffing nedir ve kalıcı koruma adımları.
+
+### 📶 publicWifi.md
+Ortak ağlarda gerçek risk analizi: evil twin, MITM, ARP spoofing saldırıları — abartısız anlatım. VPN seçimi, bağlanmadan önce cihaz ayarları, havalimanı/otel/kafe risk karşılaştırması.
 
 ---
 
@@ -184,6 +214,7 @@ Seni panikletirse kazanır. Sakin kalırsan, elinde genellikle hiçbir şey yokt
 
 Türkiye'de siber suçlar ve şantaj son derece ağır yaptırımlarla karşılanır. "Anonim" olduğunu sanan, VPN kullandığını düşünen, "beni bulamazlar" diyen çok kişi yakalanmış ve hayatı tamamen kararmıştır.
 "Bu rehber bilgilendirme amaçlıdır. Hukuki veya resmi güvenlik danışmanlığının yerini tutmaz."
+
 #### Türk Hukuku'nda İlgili Suçlar ve Cezalar
 
 | Suç | Kanun Maddesi | Ceza |
