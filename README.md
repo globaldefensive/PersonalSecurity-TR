@@ -83,9 +83,6 @@ Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scrip
 ```
 
 ### Parola Üreticisini Çalıştır
-Python dilini kullanarak oluşturulan bu şifre üreticisinde bizim için gerekli olan Mobilde Çalışacak Python derleyicisidir bu sebeple önce indirme adımına geçelim.
-Mobilde Uygulama Mağazana gir ve arama kısmına "Pydroid 3 - IDE for Python 3" indir kurulumu tamamladıktan sonrasında [🔑 passwordGenerator.py](passwordGenerator.py) ilerle. Kodu kopyala. indirdiğin "Pydroid 3" uygulamasının içerisine yapıştır ve kodu çalıştır. Başarılı Şifreniz üretildi.
-
 ```bash
 # Kurulum (opsiyonel — pano kopyalama için)
 pip install pyperclip
@@ -102,6 +99,10 @@ python passwordGenerator.py --no-symbols --no-ambiguous
 # Tüm seçenekler
 python passwordGenerator.py --help
 ```
+Eğer ki [🔑 passwordGenerator.py](passwordGenerator.py) indirmek istemiyor direkt kopyala yapıştır yaparak şifre üretmek istiyorsanız:
+
+Python dilini kullanarak oluşturulan bu şifre üreticisinde bizim için gerekli olan Mobilde Çalışacak Python derleyicisidir bu sebeple önce uygulamayı indirme adımına geçelim.
+Mobilde apple ise appstore diğer modeller için playstore uygulama mağazana gir ve arama kısmına "Pydroid 3 - IDE for Python 3" indir kurulumu tamamladıktan sonrasında [🔑 passwordGenerator.py](passwordGenerator.py) ilerle. Kodu kopyala. indirdiğin "Pydroid 3" uygulamasının içerisine yapıştır ve kodu çalıştır. Başarılı Şifreniz üretildi.
 
 ---
 
