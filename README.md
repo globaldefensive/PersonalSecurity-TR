@@ -48,7 +48,7 @@ Instagram, Twitter/X, LinkedIn, Facebook, TikTok ve WhatsApp için Türkçe aray
 
 ### 📱 Telefon mu, Bilgisayar mı?
 
-Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scriptini çalıştırmak için bilgisayar gerekirken, e-posta güvenliği, 2FA kurulumu, tarayıcı ayarları ve ihbar adımları tamamen telefondan da yapılabilir.
+Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scriptini çalıştırmak için bilgisayar gerekirken (telefon için olan adımlar da aşağıda anlatıldı), e-posta güvenliği, 2FA kurulumu, tarayıcı ayarları ve ihbar adımları tamamen telefondan da yapılabilir.
 
 ---
 
