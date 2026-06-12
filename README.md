@@ -44,7 +44,7 @@ Kendi dijital güvenliğinizi sağlamak ve dijital hayatınızı kontrol altınd
 `deviceHardening.md` telefon ve bilgisayar için disk şifreleme, tarayıcı eklentileri, parola yöneticisi kurulumu ve otomatik güncelleme ayarlarını anlatıyor. Bir kere yaparsın, yıllarca koruma sağlar.
 
 **Oltalama (phishing) tuzaklarını tanı.**
-Sahte bankacılık SMS'i, kurumsal görünümlü e-posta, "hesabın askıya alındı" tehdidi — `pishingBilgilendirme.md` bunların nasıl göründüğünü, nasıl anlaşıldığını ve tıkladıktan sonra ne yapman gerektiğini adım adım açıklıyor.
+Sahte bankacılık SMS'i, kurumsal görünümlü e-posta, "hesabın askıya alındı" tehdidi — `phishingBilgilendirme.md` bunların nasıl göründüğünü, nasıl anlaşıldığını ve tıkladıktan sonra ne yapman gerektiğini adım adım açıklıyor.
 
 **Şantaj veya siber saldırıya uğrarsan ne yaparsın?**
 `155_911.md` sadece acil numaraları değil, sosyal mühendislik saldırılarını, şantaj durumunda izlenecek yolu ve BTK / Emniyet Siber Suç birimine nasıl ihbarda bulunacağını da kapsıyor. Paniklemeden, sırayla ne yapman gerektiğini bilmek zaman kazandırır.
@@ -77,7 +77,7 @@ Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scrip
 | 2 | [🔑 passwordGenerator.py](passwordGenerator.py) | Güçlü parola üretici (script) |
 | 3 | [📱 155_911.md](155_911.md) | Acil ihbar & sosyal mühendislik |
 | 4 | [💻 deviceHardening.md](deviceHardening.md) | Cihaz sertleştirme & şifreleme |
-| 5 | [🎣 pishingBilgilendirme.md](pishingBilgilendirme.md) | Oltalama saldırısı tanıma |
+| 5 | [🎣 phishingBilgilendirme.md](phishingBilgilendirme.md) | Oltalama saldırısı tanıma |
 | 6 | [📲 socialMediaPrivacy.md](socialMediaPrivacy.md) | Sosyal medya gizlilik ayarları |
 | 7 | [👨‍👩‍👧 parentalGuide.md](parentalGuide.md) | Ebeveyn rehberi & çocuk güvenliği |
 | 8 | [🔓 dataBreachResponse.md](dataBreachResponse.md) | Veri sızıntısı sonrası eylem planı |
@@ -94,7 +94,7 @@ Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scrip
 ✅ 2. Parola yöneticisine geç                    → deviceHardening.md
 ✅ 3. Güçlü parola üret                          → passwordGenerator.py
 ✅ 4. Tarayıcını sertleştir                      → deviceHardening.md
-✅ 5. Phishing tuzaklarını tanımayı öğren        → pishingBilgilendirme.md
+✅ 5. Phishing tuzaklarını tanımayı öğren        → phishingBilgilendirme.md
 ✅ 6. Sosyal medya gizlilik ayarlarını düzenle   → socialMediaPrivacy.md
 ✅ 7. E-postanın sızdırılıp sızdırılmadığını kontrol et → dataBreachResponse.md
 ```
@@ -148,7 +148,7 @@ Siber kriz protokolü: RAT/hack durumunda dakika dakika ne yapılır, hesap çal
 ### 💻 [deviceHardening.md](deviceHardening.md)
 Cihaz ve tarayıcı güvenliği: Windows / macOS / Linux disk şifreleme, tarayıcı eklentileri, parola yöneticisi kurulumu, VPN & DNS şifreleme, Wi-Fi güvenliği.
 
-### 🎣 [pishingBilgilendirme.md](pishingBilgilendirme.md)
+### 🎣 [phishingBilgilendirme.md](phishingBilgilendirme.md)
 Oltalama saldırısı tanıma ve önleme: URL & e-posta adres analizi, spear phishing / smishing / vishing türleri, deepfake dolandırıcılıkları, gerçek dünya senaryoları.
 
 ### 📲 [socialMediaPrivacy.md](socialMediaPrivacy.md)
