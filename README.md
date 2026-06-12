@@ -4,6 +4,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![GitHub Sponsor](https://img.shields.io/badge/Sponsor-GitHub_Sponsors-ff69b4.svg)](https://github.com/sponsors/KULLANICI_ADIN)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-Ismarla-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/KULLANICI_ADIN)
 
 ---
 
@@ -12,6 +14,20 @@
 İnternette her gün milyonlarca insan farkında olmadan saldırıya uğruyor. Sahte bir e-posta bağlantısına tıklamak, zayıf bir parola kullanmak ya da telefona gelen "bankandan arıyorum" mesajına inanmak — bunların hepsi gerçek ve yaygın tehditler. Ama korunmak için siber güvenlik uzmanı olmana gerek yok.
 
 Bu rehber **sıradan bir kullanıcı** için yazıldı. Teknik bilgin olmasa da olur. **Telefonundan da bilgisayarından da** adımların büyük çoğunluğunu uygulayabilirsin — her rehber hangi cihazda ne yapılacağını açıkça belirtiyor.
+
+---
+
+## 🌐 Online Çözümler ve Benimle İletişim
+
+Kendi dijital güvenliğinizi sağlamak ve dijital hayatınızı kontrol altında tutabilmek adına aşağıdaki kanallardan benimle iletişime geçebilirsiniz:
+
+*   **🛡️ Standart Destek (Ücretsiz):** Bu rehberdeki konularla ilgili bir sorunuz, takıldığınız bir adım veya teknik bir hata varsa GitHub üzerinden bir [Issue (Sorun)](../../issues) açabilirsiniz. Topluluk kuralları çerçevesinde, müsaitlik durumuma göre sorularınızı yanıtlamaktan memnuniyet duyarım.
+*   **💎 Kişiye Özel Premium Danışmanlık (Ücretli Ek Paket):** Rehberin ötesine geçmek, kendi cihazlarınız (telefon/bilgisayar) ve dijital hesaplarınız için **birebir, size özel bir sertleştirme ve rutin kontrol planı** oluşturmak isterseniz benimle doğrudan iletişime geçebilirsiniz. Bu ek paket kapsamında:
+    *   Cihazlarınızın ve ağ trafiğinizin analizi,
+    *   Kişisel tehdit modelinizin çıkarılması,
+    *   Periyodik dijital güvenlik Check-Up'ları ve rutin kontrolleri tamamen size özel ve gizlilik öncelikli olarak yürütülür.
+
+> 📬 **İletişim & Destek:** Birebir premium danışmanlık talepleri, iş birlikleri ve özel sorularınız için gizlilik odaklı **[E-posta Adresiniz]@proton.me** adresinden bana ulaşabilir veya projeyi [GitHub Sponsors](https://github.com/sponsors/KULLANICI_ADIN) ya da [Buy Me a Coffee](https://www.buymeacoffee.com/KULLANICI_ADIN) üzerinden destekleyerek avantajlı katmanlara dahil olabilirsiniz.
 
 ---
 
@@ -72,7 +88,7 @@ Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scrip
 
 ### 30 Dakikada Temel Koruma
 
-```
+```text
 ✅ 1. Tüm önemli hesaplara 2FA ekle              → mailProtect.md
 ✅ 2. Parola yöneticisine geç                    → deviceHardening.md
 ✅ 3. Güçlü parola üret                          → passwordGenerator.py
@@ -101,43 +117,50 @@ python passwordGenerator.py --no-symbols --no-ambiguous
 # Tüm seçenekler
 python passwordGenerator.py --help
 ```
-[🔑 passwordGenerator.py](passwordGenerator.py) İndirmek istemiyorsanız yapmanız gerekenler:
 
-Python dilini kullanarak oluşturulan bu şifre üreticisinde bizim için gerekli olan Mobilde Çalışacak Python derleyicisidir bu sebeple önce uygulamayı indirme adımına geçelim.
-Mobilde apple ise appstore diğer modeller için playstore uygulama mağazana gir ve arama kısmına "Pydroid 3 - IDE for Python 3" indir kurulumu tamamladıktan sonrasında [🔑 passwordGenerator.py](passwordGenerator.py) ilerle. Kodu kopyala. indirdiğin "Pydroid 3" uygulamasının içerisine yapıştır ve kodu çalıştır. Başarılı Şifreniz üretildi.
+### 🔑 `passwordGenerator.py` İndirmek İstemiyorsanız Yapmanız Gerekenler:
+
+Python dilini kullanarak oluşturulan bu şifre üreticisinde bizim için gerekli olan mobilde çalışacak bir Python derleyicisidir. Bu sebeple önce uygulamayı indirme adımına geçelim:
+
+1. Mobil cihazınız **Apple (iOS)** ise **App Store**, diğer modeller (**Android**) için **Play Store** uygulama mağazanıza girin.
+2. Arama kısmına **"Pydroid 3 - IDE for Python 3"** yazın ve indirin.
+3. Kurulumu tamamladıktan sonra [🔑 passwordGenerator.py](passwordGenerator.py) dosyasına ilerleyin ve içindeki **kodu kopyalayın**.
+4. İndirdiğiniz "Pydroid 3" uygulamasının içerisine bu kodu yapıştırın ve çalıştırın. 
+
+🎉 *Başarılı! Şifreniz tamamen yerel olarak üretildi.*
 
 ---
 
 ## 🗂️ Dosya Açıklamaları
 
-### 📧 mailProtect.md
+### 📧 [mailProtect.md](mailProtect.md)
 E-posta hesabını korumanın adım adım rehberi: 2FA / Passkey kurulumu, e-posta alias kullanımı, piksel takipçi engelleme, oturum çerezi saldırıları ve kurtarma zinciri.
 
-### 🔑 passwordGenerator.py
-Kriptografik olarak güvenli parola üretici: her karakter grubundan minimum garanti, Shannon entropi skoru ve güç etiketi, otomatik pano kopyalama, tam CLI desteği.
+### 🔑 [passwordGenerator.py](passwordGenerator.py)
+Kriptografik olarak güvenli parola üretici: Her karakter grubundan minimum garanti, Shannon entropi skoru ve güç etiketi, otomatik pano kopyalama, tam CLI desteği.
 
-> ÖNEMLİ: https://github.com/globaldefensive/PersonalSecurity-TR kaynağından indirdiğinizden emin olun, 3.kişilerin attığı programlara güvenmeyin
+> ⚠️ **ÖNEMLİ:** Kodu sadece [https://github.com/globaldefensive/PersonalSecurity-TR](https://github.com/globaldefensive/PersonalSecurity-TR) kaynağından indirdiğinizden emin olun. Üçüncü kişilerin dağıttığı veya attığı programlara asla güvenmeyin.
 
-### 📱 155_911.md
+### 📱 [155_911.md](155_911.md)
 Siber kriz protokolü: RAT/hack durumunda dakika dakika ne yapılır, hesap çalındıysa kurtarma adımları, şantaj ve tehdit mesajlarında eylem planı, BTK / Emniyet Siber Suç ihbar kılavuzu.
 
-### 💻 deviceHardening.md
+### 💻 [deviceHardening.md](deviceHardening.md)
 Cihaz ve tarayıcı güvenliği: Windows / macOS / Linux disk şifreleme, tarayıcı eklentileri, parola yöneticisi kurulumu, VPN & DNS şifreleme, Wi-Fi güvenliği.
 
-### 🎣 pishingBilgilendirme.md
-Oltalama saldırısı tanıma ve önleme: URL & e-posta adres analizi, spear phishing / smishing / vishing türleri, deepfake dolandırıcılıkları, gerçek dünya senaryolar.
+### 🎣 [pishingBilgilendirme.md](pishingBilgilendirme.md)
+Oltalama saldırısı tanıma ve önleme: URL & e-posta adres analizi, spear phishing / smishing / vishing türleri, deepfake dolandırıcılıkları, gerçek dünya senaryoları.
 
-### 📲 socialMediaPrivacy.md
+### 📲 [socialMediaPrivacy.md](socialMediaPrivacy.md)
 Instagram, Twitter/X, LinkedIn, Facebook, TikTok ve WhatsApp için Türkçe arayüz menü yollarıyla adım adım gizlilik ayarları. Varsayılan ayarlar seni değil, platformu korur.
 
-### 👨‍👩‍👧 parentalGuide.md
+### 👨‍👩‍👧 [parentalGuide.md](parentalGuide.md)
 Yaş gruplarına göre online riskler, grooming sürecinin uyarı işaretleri, deepfake sextortion tehdidi, siber zorbalık türleri ve ebeveyn denetim araçları. Çocuğunla bu konuları nasıl konuşacağına dair somut rehber.
 
-### 🔓 dataBreachResponse.md
+### 🔓 [dataBreachResponse.md](dataBreachResponse.md)
 Haveibeenpwned çıktısını anlama kılavuzu, sızıntı türüne göre öncelik sırası, Türkiye'de kimlik hırsızlığı kontrolü (e-Devlet, Findeks/KKB), credential stuffing nedir ve kalıcı koruma adımları.
 
-### 📶 publicWifi.md
-Ortak ağlarda gerçek risk analizi: evil twin, MITM, ARP spoofing saldırıları — abartısız anlatım. VPN seçimi, bağlanmadan önce cihaz ayarları, havalimanı/otel/kafe risk karşılaştırması.
+### 📶 [publicWifi.md](publicWifi.md)
+Ortak ağlarda gerçek risk analizi: Evil twin, MITM, ARP spoofing saldırıları — abartısız anlatım. VPN seçimi, bağlanmadan önce cihaz ayarları, havalimanı/otel/kafe risk karşılaştırması.
 
 ---
 
@@ -147,7 +170,7 @@ Cihazının **arka planda hangi uygulamaların çalıştığını**, **internete
 
 Her cihazın yapılandırması, işletim sistemi ve ağ ortamı farklıdır. Bu nedenle **ağ izleme ve süreç analizi konularında doğrudan benimle iletişime geçebilirsin** — durumuna göre ne yapman gerektiğini birlikte değerlendiririz.
 
-> 📬 **İletişim:** GitHub üzerinden [issue aç](../../issues) veya profil sayfasındaki iletişim bilgilerini kullan.
+> 📬 **İletişim:** Detaylar yukarıdaki **Online Çözümler ve Benimle İletişim** bölümünde yer almaktadır.
 
 ---
 
@@ -163,8 +186,6 @@ Hata buldun veya eksik gördün? [Issue aç](../../issues) veya PR gönder.
 
 [MIT License](LICENSE) © 2025 globaldefensive
 
----
-
 > ⚠️ **Not:** Bu rehber bilgilendirme amaçlıdır. Hukuki veya resmi güvenlik danışmanlığının yerini tutmaz.
 
 ---
@@ -174,91 +195,84 @@ Hata buldun veya eksik gördün? [Issue aç](../../issues) veya PR gönder.
 Sosyal medyada "seni hackliyorum", "sistemine girdim", "her şeyini biliyorum" diyen insanların büyük çoğunluğu **script kiddie** denen bir kategoriye girer. Ne olduğunu net anlatalım:
 
 ### Script Kiddie Kim?
-
 Başkasının yazdığı hazır araçları, YouTube videolarından veya forumlardan kopyaladığı komutları çalıştıran, bunların arkasında ne olduğunu **hiç anlamayan** kişilerdir. Bunların büyük çoğunluğu:
+* Kullandığı aracın kaynak kodunu okuyamaz.
+* Hedef sistemin nasıl çalıştığını bilmez.
+* Saldırı başarısız olduğunda ne yapacağını bilemez.
+* Tek "becerisi" bir komutu kopyalayıp yapıştırmaktır.
 
-- Kullandığı aracın kaynak kodunu okuyamaz
-- Hedef sistemin nasıl çalıştığını bilmez
-- Saldırı başarısız olduğunda ne yapacağını bilemez
-- Tek "becerisi" bir komutu kopyalayıp yapıştırmaktır
-
-Gerçek bir siber güvenlik uzmanının yıllarca çalışarak öğrendiği şeyleri "ben de yapıyorum" zanneder — yapmaz.
+Gerçek bir siber güvenlik uzmanının yıllarca çalışarak öğrendiği şeyleri "ben de yapıyorum" zanneder — **yapamaz.**
 
 ### Klasik Taktikleri ve Gerçeği
 
 | Söyledikleri | Gerçekte Ne Olduğu |
-|---|---|
-| "IP'ni aldım, adresini biliyorum" | IP adresi zaten herkese açık bir bilgidir. Ev adresin değil, internet servis sağlayıcının sunucu lokasyonudur. |
-| "Kamerana girdim, seni izliyorum" | Ekran görüntüsü sahte veya başkasından çalıntı. Gerçek bir erişim olsaydı bunu söylemezdi. |
-| "Tüm şifrelerini ele geçirdim" | Eğer gerçekten ele geçirseydi sessiz kalır, kullanırdı. Bağırıyorsa yoktur. |
-| "Dosyalarını sildim / şifreledim" | Büyük olasılıkla blöf. Gerçekse zaten olmuştur, paniklemek işe yaramaz. |
-| "Şu kadar para öde yoksa..." | Klasik sosyal mühendislik. Korkutarak para almaya çalışır, çoğunun elinde hiçbir şey yoktur. |
+| :--- | :--- |
+| **"IP'ni aldım, adresini biliyorum"** | IP adresi zaten herkese açık bir bilgidir. Ev adresin değil, internet servis sağlayıcının sunucu lokasyonudur. |
+| **"Kamerana girdim, seni izliyorum"** | Ekran görüntüsü sahte veya başkasından çalıntı. Gerçek bir erişim olsaydı bunu söylemezdi. |
+| **"Tüm şifrelerini ele geçirdim"** | Eğer gerçekten ele geçirseydi sessiz kalır, kullanırdı. Bağırıyorsa elinde hiçbir şey yoktur. |
+| **"Dosyalarını sildim / şifreledim"** | Büyük olasılıkla blöf. Gerçek bir siber saldırı olsaydı zaten çoktan gerçekleşmiş olurdu, paniklemek işe yaramaz. |
+| **"Şu kadar para öde yoksa..."** | Klasik sosyal mühendislik. Korkutarak para almaya çalışır, çoğunun elinde hiçbir şey yoktur. |
 
 ### Neden Tehlikeli Sayılırlar?
+Teknik bilgileri olmasa da **sosyal mühendislik** yapabilirler. Yani seni korkutarak, kandırarak veya manipüle ederek **kendine** bir şeyler yaptırabilirler. Asıl tehlike budur — yazılım değil, psikoloji.
 
-Teknik bilgileri olmasa da **sosyal mühendislik** yapabilirler. Yani seni korkutarak, kandırarak veya manipüle ederek **kendin** bir şey yaptırabilirler. Asıl tehlike budur — yazılım değil, psikoloji.
-
-Seni panikletirse kazanır. Sakin kalırsan, elinde genellikle hiçbir şey yoktur.
+> 💡 Seni panikletirse kazanır. Sakin kalırsan, elinde genellikle hiçbir şey yoktur.
 
 ### Ne Yapmalısın?
+1. **Sakin kal ve panikleme:** Bağıran birinin elinde genellikle veri veya yetki yoktur.
+2. **Yanıt verme:** Her yanıt onlara yeni bir bilgi ipucu verir ve onları cesaretlendirir.
+3. **Ekran görüntüsü al**, ardından kullanıcıyı tamamen engelle.
+4. Gerçek bir tehdit söz konusuysa → [155_911.md](155_911.md) adımlarını uygulaya koy.
+5. Hesap güvenliğini şimdiden sıkılaştır → [mailProtect.md](mailProtect.md)
 
-- **Paniklememe.** Bağıran birinin elinde genellikle bir şey yoktur.
-- **Yanıt verme.** Her yanıt onlara bilgi verir ve cesaretlendirir.
-- **Ekran görüntüsü al**, sonra engelle.
-- Gerçek bir tehdit söz konusuysa → [155_911.md](155_911.md) adımlarını uygula.
-- Hesap güvenliğini şimdiden al → [mailProtect.md](mailProtect.md)
-
-> 💬 Gerçek bir siber güvenlik uzmanı sana "seni hackliyorum" demez. Sessizce çalışır ya da hiç ilgilenmez. Bağıran script kiddie'dir.
+> 💬 Gerçek bir siber güvenlik uzmanı sana "seni hackliyorum" demez. Sessizce çalışır ya da hiç ilgilenmez. Bağıran kişi sadece bir script kiddie'dir.
 
 ---
 
-> 📌 Aşağıdaki cezalar bilgi amaçlıdır. Güncel ve kesin bilgi için
-> mevzuat.gov.tr veya bir hukuk danışmanına başvurun.
+> 📌 Aşağıdaki cezalar bilgi amaçlıdır. Güncel ve kesin bilgi için **mevzuat.gov.tr** adresine veya bir hukuk danışmanına başvurun.
+> *"Bu rehber bilgilendirme amaçlıdır. Hukuki veya resmi güvenlik danışmanlığının yerini tutmaz."*
 
-### ⚖️ Bunların Başına Ne Geliyor? — Yasal Yaptırımlar
+## ⚖️ Bunların Başına Ne Geliyor? — Yasal Yaptırımlar
 
 Türkiye'de siber suçlar ve şantaj son derece ağır yaptırımlarla karşılanır. "Anonim" olduğunu sanan, VPN kullandığını düşünen, "beni bulamazlar" diyen çok kişi yakalanmış ve hayatı tamamen kararmıştır.
-"Bu rehber bilgilendirme amaçlıdır. Hukuki veya resmi güvenlik danışmanlığının yerini tutmaz."
 
-#### Türk Hukuku'nda İlgili Suçlar ve Cezalar
+### Türk Hukuku'nda İlgili Suçlar ve Cezalar
 
-| Suç | Kanun Maddesi | Ceza |
-|-----|--------------|------|
-| Bilişim sistemine izinsiz girme | TCK 243 | 1–3 yıl hapis |
-| Sistemi engelleme, bozma, veri yok etme | TCK 244 | 1–5 yıl hapis |
-| Şantaj | TCK 107 | 1–3 yıl hapis (tehdidin niteliğine göre artabilir) |
-| Tehdit | TCK 106 | 6 ay – 2 yıl hapis |
-| Hakaret / kişilik haklarına saldırı | TCK 125–131 | 3 ay – 2 yıl hapis |
-| Kişisel verileri ele geçirme/yayma | TCK 136 | 2–4 yıl hapis |
-| Özel hayatın gizliliğini ihlal | TCK 134 | 1–3 yıl hapis |
+| Suç Türü | Kanun Maddesi | Öngörülen Ceza |
+| :--- | :--- | :--- |
+| **Bilişim sistemine izinsiz girme** | TCK 243 | 1 – 3 yıl hapis |
+| **Sistemi engelleme, bozma, veri yok etme** | TCK 244 | 1 – 5 yıl hapis |
+| **Şantaj** | TCK 107 | 1 – 3 yıl hapis *(tehdidin niteliğine göre artabilir)* |
+| **Tehdit** | TCK 106 | 6 ay – 2 yıl hapis |
+| **Hakaret / kişilik haklarına saldırı** | TCK 125–131 | 3 ay – 2 yıl hapis |
+| **Kişisel verileri ele geçirme / yayma** | TCK 136 | 2 – 4 yıl hapis |
+| **Özel hayatın gizliliğini ihlal** | TCK 134 | 1 – 3 yıl hapis |
 
-Bu cezalar ertelenebilir olmaktan çıkıp fiili hapise dönüşebilir — özellikle mağdur şikayetçi olursa ve birden fazla suç bir arada işlenmişse.
+Bu cezalar ertelenebilir olmaktan çıkıp fiili hapse dönüşebilir — özellikle mağdur şikayetçi olursa ve birden fazla suç bir arada (zincirleme olarak) işlenmişse.
 
-#### "Anonim Kaldım, VPN Kullandım" Diyenlere
-
+### "Anonim Kaldım, VPN Kullandım" Diyenlere
 Bu düşünce tamamen yanlış. Dijital iz **her zaman** kalır:
+* **VPN şirketleri** mahkeme kararıyla log teslim eder — Türkiye'deki veya AB/ABD'deki yasal sağlayıcıların tamamı hukuka uymak zorundadır.
+* **Sosyal medya platformları** IP ve cihaz bilgisini savcılık talebiyle doğrudan paylaşır — Meta, Google, Discord, Telegram hepsi resmi taleplere yanıt verir.
+* Kullandığı hazır araçların **ağ trafiği** internet servis sağlayıcıları tarafından kayıt altına alınır.
+* Ödeme aldıysa — kripto para bile olsa — **işlem zinciri** (blockchain analiziyle) izlenebilir.
+* Kendi çevresinden birine övündüyse, ihbar zaten en yakınından gelir.
 
-- VPN şirketleri mahkeme kararıyla log teslim eder — Türkiye'deki veya AB/ABD'deki sağlayıcıların tamamı
-- Sosyal medya platformları IP ve cihaz bilgisini savcılık talebiyle verir — Meta, Google, Discord, Telegram hepsi verir
-- Kullandığı hazır araçların ağ trafiği kayıt altına alınır
-- Ödeme aldıysa — kripto bile olsa — işlem zinciri izlenebilir
-- Kendi çevresinden birine övündüyse ihbar zaten oradan gelir
+> 👮 Türk Emniyeti Siber Suçlar Birimi bu tür vakaları rutin olarak çözüyor. Küçük görünen tek bir tehdit mesajı bile soruşturma başlatmaya fazlasıyla yeterlidir.
 
-Türk Emniyet Siber Suçlar Birimi bu tür vakaları rutin olarak çözüyor. Küçük görünen bir tehdit mesajı bile soruşturma başlatmaya yeter.
+### Yakalandıklarında Hayatlarına Ne Oluyor?
+* **Adli Sicil Kaydı:** Devlet memurluğu, güvenlik soruşturması gerektiren her türlü iş ve yurt dışı vize başvuruları kalıcı olarak olumsuz etkilenir.
+* **Üniversite Disiplin Süreci:** Bu kişilerin çoğu henüz öğrencidir; okuldan uzaklaştırma veya ilişik kesme cezaları anında gündeme gelir.
+* **Tazminat Davaları:** Cezai davanın yanında mağdur ayrıca maddi ve manevi tazminat davası açarak finansal çöküş yaşatabilir.
+* **Dijital Cihazlara El Koyma:** Telefon, bilgisayar ve tabletler delil olarak alınır; dava süresince (yıllarca) iade edilmez.
+* **Sosyal ve Aile Baskısı:** Dava süreci tüm aile, okul ve iş çevresine yansır; itibar tamamen sıfırlanır.
 
-#### Yakalandıklarında Hayatlarına Ne Oluyor?
+### Özet
+Hazır bir araç indirip çalıştırmak, sağa sola tehdit mesajı atmak veya şantaj denemesi yapmak — bunların hiçbiri "çocukça bir şaka" denilip geçilemez. **Her biri ağır birer suç unsurudur.** Türk hukuku bu fiilleri açıkça tanımlamış ve mahkemeler siber davaları son derece ciddiye almaktadır.
 
-- **Adli sicil kaydı** — devlet memurluğu, güvenlik soruşturması gerektiren her iş, yurt dışı vize başvuruları kalıcı olarak etkilenir
-- **Üniversite disiplin süreci** — çoğu henüz öğrencidir; okuldan uzaklaştırma veya ilişik kesme gündeme gelir
-- **Tazminat davaları** — cezai davanın yanında mağdur ayrıca maddi ve manevi tazminat davası açabilir
-- **Dijital cihazlara el koyma** — telefon, bilgisayar, tablet delil olarak alınır; dava süresince iade edilmez
-- **Sosyal ve aile baskısı** — dava süreci aile, okul ve iş çevresine yansır
+Bunu yapanlar genellikle kendilerini çok zeki sanırlar. Yakalandıklarında ise karşılarında, hayatlarını geri dönülemez şekilde karartan yasal sonuçlar bulurlar.
 
-#### Özet
+---
 
-Hazır bir araç indirip çalıştırmak, birkaç tehdit mesajı atmak veya şantaj denemesi yapmak — bunların hiçbiri küçük suç denilip geçilmemelidir. **Her biri suç unsurudur.** Türk hukuku bu fiilleri açıkça tanımlamış ve mahkemeler bu davaları ciddiye almaktadır.
-
-Bunu yapanlar genellikle kendilerini zeki sanır. Yakalandıklarında ise karşılarında beklemenin çok ötesinde kalıcı sonuçlar bulurlar.
-
-> 🔵 Mağdursan: Ekran görüntüsünü al, yanıt verme, şikayetini yap → [155_911.md](155_911.md)
-> 🔴 Bunu yapmayı düşünüyorsan: Yukarıdaki tabloyu tekrar oku. Kendini tutamıyorsan, illa "bir yerlere saldıracağım" diyorsan — o enerjiyi doğru yöne çevir. Güvenlik uzmanı olma yolunda ilerleyerek sektörde gerçekçi olarak var olan ve saygı duyulan kişi olabilirsin. 🙂
+* 🔵 **Mağdursan:** Ekran görüntüsünü al, asla yanıt verme ve şikayetini yap → [155_911.md](155_911.md)
+* 🔴 **Bunu yapmayı düşünüyorsan:** Yukarıdaki tabloyu tekrar oku. Kendini tutamıyorsan, illa "bir yerlere saldıracağım" diyorsan — o enerjiyi doğru yöne çevir. Güvenlik uzmanı olma yolunda ilerleyerek sektörde gerçek anlamda var olan ve saygı duyulan bir profesyonel olabilirsin. 🙂
