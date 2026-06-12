@@ -28,7 +28,7 @@ Kendi dijital güvenliğinizi sağlamak ve dijital hayatınızı kontrol altınd
     *   Periyodik dijital güvenlik Check-Up'ları, rutin kontrolleri ve ek olarak size özel çözümler
     *   Danışmanlık sırasında gizliliğiniz yüksek öncelikli olarak yürütülür.
 
-> 📬 **İletişim & Destek:** Birebir premium danışmanlık talepleri, iş birlikleri ve özel sorularınız için gizlilik odaklı **[E-posta Adresiniz]@proton.me** adresinden bana ulaşabilir veya projeyi [GitHub Sponsors](https://github.com/sponsors/KULLANICI_ADIN) ya da [Buy Me a Coffee](https://www.buymeacoffee.com/KULLANICI_ADIN) üzerinden destekleyerek avantajlı katmanlara dahil olabilirsiniz.
+> 📬 **İletişim & Destek:** Birebir premium danışmanlık talepleri, iş birlikleri ve özel sorularınız için gizlilik odaklı **globaldefensive@proton.me** adresinden bana ulaşabilir veya projeyi [GitHub Sponsors](https://github.com/sponsors/globaldefensive) ya da [Buy Me a Coffee](https://www.buymeacoffee.com/globaldefensive) üzerinden destekleyerek avantajlı katmanlara dahil olabilirsiniz.
 
 ---
 
