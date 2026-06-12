@@ -25,7 +25,7 @@ Kendi dijital güvenliğinizi sağlamak ve dijital hayatınızı kontrol altınd
 *   **💎 Kişiye Özel Premium Danışmanlık (Ücretli Ek Paket):** Rehberin ötesine geçmek, kendi cihazlarınız (telefon/bilgisayar) ve dijital hesaplarınız için **birebir, size özel bir sertleştirme ve rutin kontrol planı** oluşturmak isterseniz benimle doğrudan iletişime geçebilirsiniz. Bu ek paket kapsamında:
     *   Cihazlarınızın ve ağ trafiğinizin analizi,
     *   Kişisel tehdit modelinizin çıkarılması,
-    *   Periyodik dijital güvenlik Check-Up'ları, rutin kontrolleri ve ek olarak size özel çözümler...
+    *   Periyodik dijital güvenlik Check-Up'ları, rutin kontrolleri ve ek olarak size özel çözümler
     *   Danışmanlık sırasında gizliliğiniz öncelikli olarak yürütülür.
 
 > 📬 **İletişim & Destek:** Birebir premium danışmanlık talepleri, iş birlikleri ve özel sorularınız için gizlilik odaklı **[E-posta Adresiniz]@proton.me** adresinden bana ulaşabilir veya projeyi [GitHub Sponsors](https://github.com/sponsors/KULLANICI_ADIN) ya da [Buy Me a Coffee](https://www.buymeacoffee.com/KULLANICI_ADIN) üzerinden destekleyerek avantajlı katmanlara dahil olabilirsiniz.
