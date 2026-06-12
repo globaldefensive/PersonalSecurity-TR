@@ -111,7 +111,7 @@ Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scrip
 ```
 
 ### Parola Üreticisini Çalıştır
-🔑 passwordGenerator.py İndirme tamamlandıktan sonra yapmanız gerekenler:
+### 🔑 `passwordGenerator.py İndirme tamamlandıktan sonra yapmanız gerekenler:
 ```
 # Kurulum (opsiyonel — pano kopyalama için)
 pip install pyperclip
