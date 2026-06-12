@@ -39,7 +39,7 @@ Bu rehberin bağımsız kalmasını desteklemek, küresel ve sansürsüz bir şe
 
 *   **Coin:** USDT (Tether)
 *   **Network (Ağ):** Tron (TRC20)  `<- Farklı bir ağdan gönderim yapmayınız.`
-*   **Deposit Address:** TDBvJvWGYsTUVpWPRPechbWRfVjZDcgCoi
+*   **Deposit Address:** `TDBvJvWGYsTUVpWPRPechbWRfVjZDcgCoi`
 
 ---
 
