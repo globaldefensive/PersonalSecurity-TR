@@ -82,14 +82,9 @@ PR açıklamasına ne değiştirdiğini ve neden değiştirdiğini yaz.
 
 ## 💡 Katkı Fikirleri
 
-Aşağıdaki konularda katkıya açığız:
+Aşağıdaki konularda ve eklemek istediğiniz konular varsa katkıya açığız:
 
 - [ ] Android / iOS cihaz sertleştirme rehberi
-- [ ] Şifreli not alma uygulamaları karşılaştırması
-- [ ] Güvenli dosya silme rehberi
-- [ ] Wi-Fi güvenliği & sahte erişim noktası tespiti
-- [ ] Sosyal medya gizlilik ayarları rehberi (Instagram, Twitter/X, LinkedIn)
-- [ ] `passwordGenerator.py` için kelime listesi tabanlı passphrase modu
 
 ---
 
