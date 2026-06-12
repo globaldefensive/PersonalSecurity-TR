@@ -4,8 +4,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![GitHub Sponsor](https://img.shields.io/badge/Sponsor-GitHub_Sponsors-ff69b4.svg)](https://github.com/sponsors/KULLANICI_ADIN)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-Ismarla-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/KULLANICI_ADIN)
+[![GitHub Sponsor](https://img.shields.io/badge/Sponsor-GitHub_Sponsors-ff69b4.svg)](https://github.com/sponsors/globaldefensive)
+[![Crypto Support](https://img.shields.io/badge/Support-USDT_(TRC20)-26a17b?style=flat&logo=tether&logoColor=white)](#-crypto-support-kripto-ile-destek)
 
 ---
 
@@ -29,7 +29,17 @@ Kendi dijital güvenliğinizi sağlamak ve dijital hayatınızı kontrol altınd
     *   Periyodik dijital güvenlik Check-Up'ları, rutin kontrolleri ve ek olarak size özel çözümler
     *   Danışmanlık sırasında gizliliğiniz yüksek öncelikli olarak yürütülür.
 
-> 📬 **İletişim & Destek:** Birebir premium danışmanlık talepleri, iş birlikleri ve özel sorularınız için gizlilik odaklı **globaldefensive@proton.me** adresinden bana ulaşabilir veya projeyi [GitHub Sponsors](https://github.com/sponsors/globaldefensive) ya da [Buy Me a Coffee](https://www.buymeacoffee.com/globaldefensive) üzerinden destekleyerek avantajlı katmanlara dahil olabilirsiniz.
+> 📬 **İletişim & Destek:** Birebir premium danışmanlık talepleri, iş birlikleri ve özel sorularınız için gizlilik odaklı **globaldefensive@proton.me** adresinden bana ulaşabilir veya projeyi [GitHub Sponsors](https://github.com/sponsors/globaldefensive) üzerinden ya da aşağıdaki kripto adresi üzerinden destekleyebilirsiniz.
+
+---
+
+## 🪙 Crypto Support (Kripto İle Destek)
+
+Bu rehberin bağımsız kalmasını desteklemek, küresel ve sansürsüz bir şekilde bağışta bulunmak isterseniz aşağıdaki **USDT** adresini kullanabilirsiniz. Blockchain ağının doğası gereği yapacağınız destekler tamamen güvenli ve taraflar arası gizlilik prensibine uygundur:
+
+*   **Coin:** USDT (Tether)
+*   **Network (Ağ):** Tron (TRC20)  `<- Farklı bir ağdan gönderim yapmayınız.`
+*   **Deposit Address:** `Buraya Binance'ten kopyaladığın T ile başlayan o upuzun kodu yapıştır kanka`
 
 ---
 
@@ -91,7 +101,7 @@ Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scrip
 ### 30 Dakikada Temel Koruma
 
 ```text
-✅ 1. Tüm önemli hesaplara 2FA ekle              → mailProtect.md
+✅ 1. Tüm önemli hesaplara 2FA ekle             → mailProtect.md
 ✅ 2. Parola yöneticisine geç                    → deviceHardening.md
 ✅ 3. Güçlü parola üret                          → passwordGenerator.py
 ✅ 4. Tarayıcını sertleştir                      → deviceHardening.md
@@ -101,9 +111,8 @@ Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scrip
 ```
 
 ### Parola Üreticisini Çalıştır
-[🔑 passwordGenerator.py](passwordGenerator.py) İndirme tamamlandıktan sonra yapmanız gerekenler: 
-
-```bash
+🔑 passwordGenerator.py İndirme tamamlandıktan sonra yapmanız gerekenler:
+```
 # Kurulum (opsiyonel — pano kopyalama için)
 pip install pyperclip
 
@@ -263,7 +272,7 @@ Bu düşünce tamamen yanlış. Dijital iz **her zaman** kalır:
 > 👮 Türk Emniyeti Siber Suçlar Birimi bu tür vakaları rutin olarak çözüyor. Küçük görünen tek bir tehdit mesajı bile soruşturma başlatmaya fazlasıyla yeterlidir.
 
 ### Yakalandıklarında Hayatlarına Ne Oluyor?
-* **Adli Sicil Kaydı:** Devlet memurluğu, güvenlik soruşturması gerektiren her türlü iş ve yurt dışı vize başvuruları kalıcı olarak olumsuz etkilenir.
+* **Adli Sicil Kaydı:** Devlet memurluğu, security soruşturması gerektiren her türlü iş ve yurt dışı vize başvuruları kalıcı olarak olumsuz etkilenir.
 * **Üniversite Disiplin Süreci:** Bu kişilerin çoğu henüz öğrencidir; okuldan uzaklaştırma veya ilişik kesme cezaları anında gündeme gelir.
 * **Tazminat Davaları:** Cezai davanın yanında mağdur ayrıca maddi ve manevi tazminat davası açarak finansal çöküş yaşatabilir.
 * **Dijital Cihazlara El Koyma:** Telefon, bilgisayar ve tabletler delil olarak alınır; dava süresince (yıllarca) iade edilmez.
