@@ -33,7 +33,7 @@ Kendi dijital güvenliğinizi sağlamak ve dijital hayatınızı kontrol altınd
 
 ---
 
-## 🪙 Crypto Support (Kripto İle Destek)
+## 🪙 Crypto Support (Kripto İle Ödeme&Destek)
 
 Bu rehberin bağımsız kalmasını desteklemek, küresel ve sansürsüz bir şekilde bağışta bulunmak isterseniz aşağıdaki **USDT** adresini kullanabilirsiniz. Blockchain ağının doğası gereği yapacağınız destekler tamamen güvenli ve taraflar arası gizlilik prensibine uygundur:
 
