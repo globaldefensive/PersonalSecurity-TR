@@ -276,5 +276,5 @@ Bunu yapanlar genellikle kendilerini çok zeki sanırlar. Yakalandıklarında is
 
 ---
 
-* 🔵 **Mağdursan:** Ekran görüntüsünü al, asla yanıt verme ve şikayetini yap → [155_911.md](155_911.md)
-* 🔴 **Bunu yapmayı düşünüyorsan:** Yukarıdaki tabloyu tekrar oku. Kendini tutamıyorsan, illa "bir yerlere saldıracağım" diyorsan — o enerjiyi doğru yöne çevir. Güvenlik uzmanı olma yolunda ilerleyerek sektörde gerçek anlamda var olan ve saygı duyulan bir profesyonel olabilirsin. 🙂
+>  🔵 **Mağdursan:** Ekran görüntüsünü al, asla yanıt verme ve şikayetini yap → [155_911.md](155_911.md)
+>  🔴 **Bunu yapmayı düşünüyorsan:** Yukarıdaki tabloyu tekrar oku. Kendini tutamıyorsan, illa "bir yerlere saldıracağım" diyorsan — o enerjiyi doğru yöne çevir. Güvenlik uzmanı olma yolunda ilerleyerek sektörde gerçek anlamda var olan ve saygı duyulan bir profesyonel olabilirsin. 🙂
