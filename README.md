@@ -22,7 +22,8 @@ Bu rehber **sıradan bir kullanıcı** için yazıldı. Teknik bilgin olmasa da 
 Kendi dijital güvenliğinizi sağlamak ve dijital hayatınızı kontrol altında tutabilmek adına aşağıdaki kanallardan benimle iletişime geçebilirsiniz:
 
 *   **🛡️ Standart Destek (Ücretsiz):** Bu rehberdeki konularla ilgili bir sorunuz, takıldığınız bir adım veya teknik bir hata varsa GitHub üzerinden bir [Issue (Sorun)](../../issues) açabilirsiniz. Topluluk kuralları çerçevesinde, müsaitlik durumuma göre sorularınızı yanıtlamaktan memnuniyet duyarım.
-*   **💎 Kişiye Özel Premium Danışmanlık (Ücretli Ek Paket):** Rehberin ötesine geçmek, kendi cihazlarınız (telefon/bilgisayar) ve dijital hesaplarınız için **birebir, size özel bir sertleştirme ve rutin kontrol planı** oluşturmak isterseniz benimle doğrudan iletişime geçebilirsiniz. Bu ek paket kapsamında:
+*   **💎 Kişiye Özel Premium Danışmanlık (Ücretli Ek Paket):** Rehberin ötesine geçmek, kendi cihazlarınız (telefon/bilgisayar) ve dijital hesaplarınız için **birebir, size özel bir sertleştirme ve rutin kontrol planı** oluşturmak isterseniz benimle doğrudan iletişime geçebilirsiniz.
+*   Bu ek paket kapsamında:
     *   Cihazlarınızın ve ağ trafiğinizin analizi,
     *   Kişisel tehdit modelinizin çıkarılması,
     *   Periyodik dijital güvenlik Check-Up'ları, rutin kontrolleri ve ek olarak size özel çözümler
