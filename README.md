@@ -54,7 +54,7 @@ Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scrip
 
 ---
 
-## 📋 İçindekiler
+## 📋 İçindekiler - Tıklayarak İlgili Rehbere Ulaşabilirsiniz
 
 | # | Dosya | Konu |
 |---|-------|------|
