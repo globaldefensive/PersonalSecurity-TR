@@ -54,7 +54,7 @@ Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scrip
 
 ---
 
-## 📋 İçindekiler - Tıklayarak İlgili Rehbere Ulaşabilirsiniz
+## 📋 İçindekiler - Tıklayarak İlgili Rehbere Ulaşabilirsin
 
 | # | Dosya | Konu |
 |---|-------|------|
@@ -70,53 +70,7 @@ Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scrip
 
 ---
 
-## ⚡ Hızlı Başlangıç
-
-### 30 Dakikada Temel Koruma
-
-```text
-✅ 1. Tüm önemli hesaplara 2FA ekle             → mailProtect.md
-✅ 2. Parola yöneticisine geç                    → deviceHardening.md
-✅ 3. Güçlü parola üret                          → passwordGenerator.py
-✅ 4. Tarayıcını sertleştir                      → deviceHardening.md
-✅ 5. Phishing tuzaklarını tanımayı öğren        → phishingBilgilendirme.md
-✅ 6. Sosyal medya gizlilik ayarlarını düzenle   → socialMediaPrivacy.md
-✅ 7. E-postanın sızdırılıp sızdırılmadığını kontrol et → dataBreachResponse.md
-```
-
-### Parola Üreticisini Çalıştır
-### 🔑 `passwordGenerator.py İndirme tamamlandıktan sonra yapmanız gerekenler:
-```
-# Kurulum (opsiyonel — pano kopyalama için)
-pip install pyperclip
-
-# Tek parola (varsayılan 20 karakter)
-python passwordGenerator.py
-
-# 5 adet 32 karakterli parola
-python passwordGenerator.py -n 5 -l 32
-
-# Sembolsüz, karıştırıcı karaktersiz
-python passwordGenerator.py --no-symbols --no-ambiguous
-
-# Tüm seçenekler
-python passwordGenerator.py --help
-```
-
-### 🔑 `passwordGenerator.py` İndirmek İstemiyorsanız Yapmanız Gerekenler:
-
-Python dilini kullanarak oluşturulan bu şifre üreticisinde bizim için gerekli olan mobilde çalışacak bir Python derleyicisidir. Bu sebeple önce uygulamayı indirme adımına geçelim:
-
-1. Mobil cihazınız **Apple (iOS)** ise **App Store**, diğer modeller (**Android**) için **Play Store** uygulama mağazanıza girin.
-2. Arama kısmına **"Pydroid 3 - IDE for Python 3"** yazın ve indirin.
-3. Kurulumu tamamladıktan sonra [🔑 passwordGenerator.py](passwordGenerator.py) dosyasına ilerleyin ve içindeki **kodu kopyalayın**.
-4. İndirdiğiniz "Pydroid 3" uygulamasının içerisine bu kodu yapıştırın ve çalıştırın. 
-
-🎉 *Başarılı! Şifreniz tamamen yerel olarak üretildi.*
-
----
-
-## 🗂️ Dosya Açıklamaları
+## 🗂️ İçindekiler Rehber Kısa Özet Açıklamaları
 
 ### 📧 [mailProtect.md](mailProtect.md)
 E-posta hesabını korumanın adım adım rehberi: 2FA / Passkey kurulumu, e-posta alias kullanımı, piksel takipçi engelleme, oturum çerezi saldırıları ve kurtarma zinciri.
@@ -146,6 +100,54 @@ Haveibeenpwned çıktısını anlama kılavuzu, sızıntı türüne göre öncel
 
 ### 📶 [publicWifi.md](publicWifi.md)
 Ortak ağlarda gerçek risk analizi: Evil twin, MITM, ARP spoofing saldırıları — abartısız anlatım. VPN seçimi, bağlanmadan önce cihaz ayarları, havalimanı/otel/kafe risk karşılaştırması.
+
+---
+
+## ⚡ Hızlı Başlangıç - Sırasıyla Adımları Uygulamaya Başla
+
+### 30 Dakikada Temel Koruma
+
+```text
+✅ 1. Tüm önemli hesaplara 2FA ekle              → mailProtect.md
+✅ 2. Parola yöneticisine geç                    → deviceHardening.md
+✅ 3. Güçlü parola üret                          → passwordGenerator.py
+✅ 4. Tarayıcını sertleştir                      → deviceHardening.md
+✅ 5. Phishing tuzaklarını tanımayı öğren        → phishingBilgilendirme.md
+✅ 6. Sosyal medya gizlilik ayarlarını düzenle   → socialMediaPrivacy.md
+✅ 7. E-postanın sızdırılıp sızdırılmadığını kontrol et → dataBreachResponse.md
+```
+
+### Şimdi Güçlü Parolayı Üretelim - Parola Üreticisini Çalıştır
+
+### 🔑 `passwordGenerator.py İndirme tamamlandıktan sonra yapmanız gerekenler:
+
+```
+# Kurulum (opsiyonel — pano kopyalama için)
+pip install pyperclip
+
+# Tek parola (varsayılan 20 karakter)
+python passwordGenerator.py
+
+# 5 adet 32 karakterli parola
+python passwordGenerator.py -n 5 -l 32
+
+# Sembolsüz, karıştırıcı karaktersiz
+python passwordGenerator.py --no-symbols --no-ambiguous
+
+# Tüm seçenekler
+python passwordGenerator.py --help
+```
+
+### 🔑 `passwordGenerator.py` İndirmek İstemiyorsanız Yapmanız Gerekenler:
+
+Python dilini kullanarak oluşturulan bu şifre üreticisinde bizim için gerekli olan mobilde çalışacak bir Python derleyicisidir. Bu sebeple önce uygulamayı indirme adımına geçelim:
+
+1. Mobil cihazınız **Apple (iOS)** ise **App Store**, diğer modeller (**Android**) için **Play Store** uygulama mağazanıza girin.
+2. Arama kısmına **"Pydroid 3 - IDE for Python 3"** yazın ve indirin.
+3. Kurulumu tamamladıktan sonra [🔑 passwordGenerator.py](passwordGenerator.py) dosyasına ilerleyin ve içindeki **kodu kopyalayın**.
+4. İndirdiğiniz "Pydroid 3" uygulamasının içerisine bu kodu yapıştırın ve çalıştırın. 
+
+🎉 *Başarılı! Şifreniz tamamen yerel olarak üretildi.*
 
 ---
 
