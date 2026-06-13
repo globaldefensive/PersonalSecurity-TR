@@ -183,21 +183,6 @@ Bu rehberin bağımsız kalmasını desteklemek, küresel ve sansürsüz bir şe
 *   **Coin:** USDT (Tether)
 *   **Network (Ağ):** Tron (TRC20)  `<- Farklı bir ağdan gönderim yapmayınız.`
 *   **Deposit Address:** `TDBvJvWGYsTUVpWPRPechbWRfVjZDcgCoi`
----
-
-## 🤝 Katkı
-
-Rehbere katkıda bulunmak ister misin? → [CONTRIBUTING.md](CONTRIBUTING.md)
-
-Hata buldun veya eksik gördün? [Issue aç](../../issues) veya PR gönder.
-
----
-
-## 📄 Lisans
-
-[MIT License](LICENSE) © 2025 globaldefensive
-
-> ⚠️ **Not:** Bu rehber bilgilendirme amaçlıdır. Hukuki veya resmi güvenlik danışmanlığının yerini tutmaz.
 
 ---
 
@@ -288,3 +273,19 @@ Bunu yapanlar genellikle kendilerini çok zeki sanırlar. Yakalandıklarında is
 >  🔵 **Mağdursan:** Ekran görüntüsünü al, asla yanıt verme ve şikayetini yap → [155_911.md](155_911.md)
 
 >  🔴 **Bunu yapmayı düşünüyorsan:** Yukarıdaki tabloyu tekrar oku. Kendini tutamıyorsan, illa "bir yerlere saldıracağım" diyorsan — o enerjiyi doğru yöne çevir. Güvenlik uzmanı olma yolunda ilerleyerek sektörde gerçek anlamda var olan ve saygı duyulan bir profesyonel olabilirsin. 🙂
+
+---
+
+## 🤝 Katkı
+
+Rehbere katkıda bulunmak ister misin? → [CONTRIBUTING.md](CONTRIBUTING.md)
+
+Hata buldun veya eksik gördün? [Issue aç](../../issues) veya PR gönder.
+
+---
+
+## 📄 Lisans
+
+[MIT License](LICENSE) © 2025 globaldefensive
+
+> ⚠️ **Not:** Bu rehber bilgilendirme amaçlıdır. Hukuki veya resmi güvenlik danışmanlığının yerini tutmaz.
