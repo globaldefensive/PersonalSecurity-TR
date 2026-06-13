@@ -17,32 +17,6 @@ Bu rehber **sıradan bir kullanıcı** için yazıldı. Teknik bilgin olmasa da 
 
 ---
 
-## 🌐 Online Çözümler ve Benimle İletişim
-
-Kendi dijital güvenliğinizi sağlamak ve dijital hayatınızı kontrol altında tutabilmek adına aşağıdaki kanallardan benimle iletişime geçebilirsiniz:
-
-*   **🛡️ Standart Destek (Ücretsiz):** Bu rehberdeki konularla ilgili bir sorunuz, takıldığınız bir adım veya teknik bir hata varsa GitHub üzerinden bir [Issue (Sorun)](../../issues) açabilirsiniz. Topluluk kuralları çerçevesinde, müsaitlik durumuma göre sorularınızı yanıtlamaktan memnuniyet duyarım.
-*   **💎 Kişiye Özel Premium Danışmanlık (Ücretli Ek Paket):** Rehberin ötesine geçmek, kendi cihazlarınız (telefon/bilgisayar) ve dijital hesaplarınız için **birebir, size özel bir sertleştirme ve rutin kontrol planı** oluşturmak isterseniz benimle doğrudan iletişime geçebilirsiniz.
-*   Bu ek paket kapsamında:
-    *   Cihazlarınızın ve ağ trafiğinizin analizi,
-    *   Kişisel tehdit modelinizin çıkarılması,
-    *   Periyodik dijital güvenlik Check-Up'ları, rutin kontrolleri ve ek olarak size özel çözümler
-    *   Danışmanlık sırasında gizliliğiniz yüksek öncelikli olarak yürütülür.
-
-> 📬 **İletişim & Destek:** Birebir premium danışmanlık talepleri, iş birlikleri ve özel sorularınız için gizlilik odaklı **globaldefensive@proton.me** adresinden bana ulaşabilir veya projeyi [GitHub Sponsors](https://github.com/sponsors/globaldefensive) üzerinden ya da aşağıdaki kripto adresi üzerinden destekleyebilirsiniz.
-
----
-
-## 🪙 Crypto Support (Kripto İle Ödeme&Destek)
-
-Bu rehberin bağımsız kalmasını desteklemek, küresel ve sansürsüz bir şekilde bağışta bulunmak isterseniz aşağıdaki **USDT** adresini kullanabilirsiniz. Blockchain ağının doğası gereği yapacağınız destekler tamamen güvenli ve taraflar arası gizlilik prensibine uygundur:
-
-*   **Coin:** USDT (Tether)
-*   **Network (Ağ):** Tron (TRC20)  `<- Farklı bir ağdan gönderim yapmayınız.`
-*   **Deposit Address:** `TDBvJvWGYsTUVpWPRPechbWRfVjZDcgCoi`
-
----
-
 ### 🔍 İçeride Ne Var?
 
 **Kendi şifre üreticini yaz.**
@@ -181,8 +155,32 @@ Cihazının **arka planda hangi uygulamaların çalıştığını**, **internete
 
 Her cihazın yapılandırması, işletim sistemi ve ağ ortamı farklıdır. Bu nedenle **ağ izleme ve süreç analizi konularında doğrudan benimle iletişime geçebilirsin** — durumuna göre ne yapman gerektiğini birlikte değerlendiririz.
 
-> 📬 **İletişim:** Detaylar yukarıdaki **Online Çözümler ve Benimle İletişim** bölümünde yer almaktadır.
+> 📬 **İletişim:** Detaylar **Online Çözümler ve Benimle İletişim** bölümünde yer almaktadır.
+---
 
+## 🌐 Online Çözümler ve Benimle İletişim
+
+Kendi dijital güvenliğinizi sağlamak ve dijital hayatınızı kontrol altında tutabilmek adına aşağıdaki kanallardan benimle iletişime geçebilirsiniz:
+
+*   **🛡️ Standart Destek (Ücretsiz):** Bu rehberdeki konularla ilgili bir sorunuz, takıldığınız bir adım veya teknik bir hata varsa GitHub üzerinden bir [Issue (Sorun)](../../issues) açabilirsiniz. Topluluk kuralları çerçevesinde, müsaitlik durumuma göre sorularınızı yanıtlamaktan memnuniyet duyarım.
+*   **💎 Kişiye Özel Premium Danışmanlık (Ücretli Ek Paket):** Rehberin ötesine geçmek, kendi cihazlarınız (telefon/bilgisayar) ve dijital hesaplarınız için **birebir, size özel bir sertleştirme ve rutin kontrol planı** oluşturmak isterseniz benimle doğrudan iletişime geçebilirsiniz.
+*   Bu ek paket kapsamında:
+    *   Cihazlarınızın ve ağ trafiğinizin analizi,
+    *   Kişisel tehdit modelinizin çıkarılması,
+    *   Periyodik dijital güvenlik Check-Up'ları, rutin kontrolleri ve ek olarak size özel çözümler
+    *   Danışmanlık sırasında gizliliğiniz yüksek öncelikli olarak yürütülür.
+
+> 📬 **İletişim & Destek:** Birebir premium danışmanlık talepleri, iş birlikleri ve özel sorularınız için gizlilik odaklı **globaldefensive@proton.me** adresinden bana ulaşabilir veya projeyi [GitHub Sponsors](https://github.com/sponsors/globaldefensive) üzerinden ya da aşağıdaki kripto adresi üzerinden destekleyebilirsiniz.
+
+---
+
+## 🪙 Crypto Support (Kripto İle Ödeme&Destek)
+
+Bu rehberin bağımsız kalmasını desteklemek, küresel ve sansürsüz bir şekilde bağışta bulunmak isterseniz aşağıdaki **USDT** adresini kullanabilirsiniz. Blockchain ağının doğası gereği yapacağınız destekler tamamen güvenli ve taraflar arası gizlilik prensibine uygundur:
+
+*   **Coin:** USDT (Tether)
+*   **Network (Ağ):** Tron (TRC20)  `<- Farklı bir ağdan gönderim yapmayınız.`
+*   **Deposit Address:** `TDBvJvWGYsTUVpWPRPechbWRfVjZDcgCoi`
 ---
 
 ## 🤝 Katkı
