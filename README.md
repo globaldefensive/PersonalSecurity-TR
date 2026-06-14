@@ -17,6 +17,12 @@ Bu rehber **sıradan bir kullanıcı** için yazıldı. Teknik bilgin olmasa da 
 
 ---
 
+### 📱 Rehber için Hangi Cihazı Kullanmalıyım Telefon mu? , Bilgisayar mı?
+
+Bu rehberdeki adımların tamamı hem telefon hem de bilgisayar üzerinden eksiksiz şekilde uygulanabilir. Python scriptini çalıştırmak dahil; şifre güvenliği, 2FA kurulumu, tarayıcı ayarları ve acil durum protokolleri için spesifik bir cihaza bağımlı değilsiniz. Hangi cihaz elinizin altındaysa onunla başlayabilirsiniz.
+
+---
+
 ## 📋 İçindekiler ve Rehber Özetleri
 
 ### Önleyici Rehberler — Sırasıyla Uygula
@@ -76,12 +82,6 @@ Bu rehber **sıradan bir kullanıcı** için yazıldı. Teknik bilgin olmasa da 
 
 ---
 
-### 📱 Telefon mu, Bilgisayar mı?
-
-Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scriptini çalıştırmak için bilgisayar gerekirken (telefon için olan adımlar da aşağıda anlatıldı), e-posta güvenliği, 2FA kurulumu, tarayıcı ayarları ve ihbar adımları tamamen telefondan da yapılabilir.
-
----
-
 ## ⚡ Hızlı Başlangıç - Sırasıyla Adımları Uygulamaya Başla
 
 ### 30 Dakikada Temel Koruma
@@ -96,6 +96,8 @@ Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scrip
 ✅ 7. E-postanın sızdırılıp sızdırılmadığını gör → dataBreachResponse.md
 ```
 > 📌 Yukarıdaki sıra "önce araçları edin, sonra hesapları kilitle, sonra farkındalık kazan" mantığıyla ilerler. `publicWifi.md`, `parentalGuide.md`, `socialEngineeringGercekleri.md` ve `155_911.md` durumsal rehberlerdir — ihtiyaç anında veya zaman bulduğunda okunabilir.
+
+---
 
 ### Şimdi Güçlü Parolayı Üretelim - Parola Üreticisini Çalıştır
 
