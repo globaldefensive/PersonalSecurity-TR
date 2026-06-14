@@ -20,33 +20,43 @@ Bu rehber **sıradan bir kullanıcı** için yazıldı. Teknik bilgin olmasa da 
 ### 🔍 İçeride Ne Var?
 
 **Kendi şifre üreticini yaz.**
+
 `passwordGenerator.py` dosyasıyla hazır bir servise güvenmek zorunda değilsin. Python ile çalışan, kriptografik olarak güvenli, entropi skoru gösteren ve parolayı otomatik panonuza kopyalayan bir araç — tamamen senin bilgisayarında, hiçbir yere veri göndermeden.
 
 **E-postanı ve hesaplarını kilitle.**
+
 2FA nedir, nasıl kurulur, Passkey ne işe yarar, e-posta alias neden hayat kurtarır — bunların hepsini `mailProtect.md` içinde bulursun. Gmail, Outlook, ProtonMail için ayrı ayrı adımlar var.
 
 **Cihazını sertleştir.**
+
 `deviceHardening.md` telefon ve bilgisayar için disk şifreleme, tarayıcı eklentileri, parola yöneticisi kurulumu ve otomatik güncelleme ayarlarını anlatıyor. Bir kere yaparsın, yıllarca koruma sağlar.
 
 **Oltalama (phishing) tuzaklarını tanı.**
+
 Sahte bankacılık SMS'i, kurumsal görünümlü e-posta, "hesabın askıya alındı" tehdidi — `phishingBilgilendirme.md` bunların nasıl göründüğünü, nasıl anlaşıldığını ve tıkladıktan sonra ne yapman gerektiğini adım adım açıklıyor.
 
 **Sosyal medya hesaplarını gizli tut.**
+
 Instagram, Twitter/X, LinkedIn, Facebook, TikTok ve WhatsApp için Türkçe arayüz üzerinden adım adım gizlilik ayarları — `socialMediaPrivacy.md` ile varsayılan ayarların seni nasıl ifşa ettiğini ve nasıl düzelteceğini öğren.
 
 **Bilgilerin sızdı mı? Ne yapacaksın?**
+
 `dataBreachResponse.md` ile haveibeenpwned çıktısını nasıl okuyacağını, hangi sızıntı türünün ne anlama geldiğini ve Türkiye'de kimlik hırsızlığına karşı hangi adımları atacağını öğren.
 
 **Kafede veya havalimanında güvende kal.**
+
 `publicWifi.md` ortak Wi-Fi'de gerçek riskleri abartmadan anlatıyor — evil twin saldırısı nedir, VPN olmadan minimum ne yapmalısın, hangi işlemleri ertele.
 
 **Çocuğunu internette koru.**
+
 `parentalGuide.md` grooming, deepfake tehditler, siber zorbalık ve ebeveyn denetim araçlarını yaş gruplarına göre anlatıyor. "Çocuğumla bu konuyu nasıl konuşurum?" sorusuna da cevap var.
 
 **Seni tehdit eden kişinin elinde gerçekte ne var?**
+
 `socialEngineeringGercekleri.md` ile "seni hackliyorum" diyenlerin büyük çoğunluğunun neden boş tehdit olduğunu, klasik taktiklerini ve bunu yapanların Türk hukukunda ne tür cezalarla karşılaştığını öğren.
 
 **Şantaj veya siber saldırıya uğrarsan ne yaparsın? (Acil Durum)**
+
 `155_911.md` sadece acil numaraları değil, şantaj durumunda izlenecek dakika dakika yol haritasını ve BTK / Emniyet Siber Suç birimine nasıl ihbarda bulunacağını da kapsıyor. Paniklemeden, sırayla ne yapman gerektiğini bilmek zaman kazandırır.
 
 ---
