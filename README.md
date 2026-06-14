@@ -17,57 +17,7 @@ Bu rehber **sıradan bir kullanıcı** için yazıldı. Teknik bilgin olmasa da 
 
 ---
 
-### 🔍 İçeride Ne Var?
-
-🔑**Kendi şifre üreticini yaz.**
-
-`passwordGenerator.py` dosyasıyla hazır bir servise güvenmek zorunda değilsin. Python ile çalışan, kriptografik olarak güvenli, entropi skoru gösteren ve parolayı otomatik panonuza kopyalayan bir araç — tamamen senin bilgisayarında, hiçbir yere veri göndermeden.
-
-📧**E-postanı ve hesaplarını kilitle.**
-
-2FA nedir, nasıl kurulur, Passkey ne işe yarar, e-posta alias neden hayat kurtarır — bunların hepsini `mailProtect.md` içinde bulursun. Gmail, Outlook, ProtonMail için ayrı ayrı adımlar var.
-
-💻**Cihazını sertleştir.**
-
-`deviceHardening.md` telefon ve bilgisayar için disk şifreleme, tarayıcı eklentileri, parola yöneticisi kurulumu ve otomatik güncelleme ayarlarını anlatıyor. Bir kere yaparsın, yıllarca koruma sağlar.
-
-🎣**Oltalama (phishing) tuzaklarını tanı.**
-
-Sahte bankacılık SMS'i, kurumsal görünümlü e-posta, "hesabın askıya alındı" tehdidi — `phishingBilgilendirme.md` bunların nasıl göründüğünü, nasıl anlaşıldığını ve tıkladıktan sonra ne yapman gerektiğini adım adım açıklıyor.
-
-📲**Sosyal medya hesaplarını gizli tut.**
-
-Instagram, Twitter/X, LinkedIn, Facebook, TikTok ve WhatsApp için Türkçe arayüz üzerinden adım adım gizlilik ayarları — `socialMediaPrivacy.md` ile varsayılan ayarların seni nasıl ifşa ettiğini ve nasıl düzelteceğini öğren.
-
-🔓**Bilgilerin sızdı mı? Ne yapacaksın?**
-
-`dataBreachResponse.md` ile haveibeenpwned çıktısını nasıl okuyacağını, hangi sızıntı türünün ne anlama geldiğini ve Türkiye'de kimlik hırsızlığına karşı hangi adımları atacağını öğren.
-
-📶**Kafede veya havalimanında güvende kal.**
-
-`publicWifi.md` ortak Wi-Fi'de gerçek riskleri abartmadan anlatıyor — evil twin saldırısı nedir, VPN olmadan minimum ne yapmalısın, hangi işlemleri ertele.
-
-👨‍👩‍👧**Çocuğunu internette koru.**
-
-`parentalGuide.md` grooming, deepfake tehditler, siber zorbalık ve ebeveyn denetim araçlarını yaş gruplarına göre anlatıyor. "Çocuğumla bu konuyu nasıl konuşurum?" sorusuna da cevap var.
-
-🎭**Seni tehdit eden kişinin elinde gerçekte ne var?**
-
-`socialEngineeringGercekleri.md` ile "seni hackliyorum" diyenlerin büyük çoğunluğunun neden boş tehdit olduğunu, klasik taktiklerini ve bunu yapanların Türk hukukunda ne tür cezalarla karşılaştığını öğren.
-
-🚨**Şantaj veya siber saldırıya uğrarsan ne yaparsın? (Acil Durum)**
-
-`155_911.md` sadece acil numaraları değil, şantaj durumunda izlenecek dakika dakika yol haritasını ve BTK / Emniyet Siber Suç birimine nasıl ihbarda bulunacağını da kapsıyor. Paniklemeden, sırayla ne yapman gerektiğini bilmek zaman kazandırır.
-
----
-
-### 📱 Telefon mu, Bilgisayar mı?
-
-Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scriptini çalıştırmak için bilgisayar gerekirken (telefon için olan adımlar da aşağıda anlatıldı), e-posta güvenliği, 2FA kurulumu, tarayıcı ayarları ve ihbar adımları tamamen telefondan da yapılabilir.
-
----
-
-## 📋 İçindekiler - Tıkla Ulaş
+## 📋 İçindekiler ve Rehber Özetleri
 
 ### Önleyici Rehberler — Sırasıyla Uygula
 
@@ -80,7 +30,7 @@ Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scrip
 | 5 | [📲 socialMediaPrivacy.md](socialMediaPrivacy.md) | Sosyal medya gizlilik ayarları |
 | 6 | [🔓 dataBreachResponse.md](dataBreachResponse.md) | Veri sızıntısı sonrası eylem planı |
 | 7 | [📶 publicWifi.md](publicWifi.md) | Ortak Wi-Fi güvenliği |
-| 8 | [👨‍👩‍👧 parentalGuide.md](parentalGuide.md) | Ebeveyn rehberi & çocuk güvenliği |
+| 8 | [👨‍👩‍👧 parentalGuide.md](parentalGuide.md) | Ebeveyn rehberi & child güvenliği |
 
 ### Bilgi & Kriz Anı Rehberleri
 
@@ -91,39 +41,44 @@ Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scrip
 
 ---
 
-## 🗂️ İçindekiler Rehber Kısa Özet Açıklamaları
+### 🗂️ Rehberlerin Kısa Açıklamaları
 
 ### 🔑 [passwordGenerator.py](passwordGenerator.py)
-Kriptografik olarak güvenli parola üretici: Her karakter grubundan minimum garanti, Shannon entropi skoru ve güç etiketi, otomatik pano kopyalama, tam CLI desteği.
-
-> ⚠️ **ÖNEMLİ:** Kodu sadece [https://github.com/globaldefensive/PersonalSecurity-TR](https://github.com/globaldefensive/PersonalSecurity-TR) kaynağından indirdiğinizden emin olun. Üçüncü kişilerin dağıttığı veya attığı programlara asla güvenmeyin.
+**Kendi şifre üreticini yaz:** Hazır bir servise güvenmek zorunda değilsin. Python ile çalışan, kriptografik olarak güvenli, entropi skoru gösteren ve parolayı otomatik panona kopyalayan bir araç. Tamamen senin bilgisayarında çalışır, hiçbir yere veri göndermez.
+> ⚠️ **ÖNEMLİ:** Kodu sadece resmi kaynaktan indirdiğinizden emin olun. Üçüncü kişilerin dağıttığı programlara asla güvenmeyin.
 
 ### 📧 [mailProtect.md](mailProtect.md)
-E-posta hesabını korumanın adım adım rehberi: 2FA / Passkey kurulumu, e-posta alias kullanımı, piksel takipçi engelleme, oturum çerezi saldırıları ve kurtarma zinciri.
+**E-postanı ve hesaplarını kilitle:** 2FA nedir, nasıl kurulur, Passkey ne işe yarar, e-posta alias neden hayat kurtarır? Gmail, Outlook ve ProtonMail için adım adım kurulum ve kurtarma zinciri oluşturma rehberi.
 
 ### 💻 [deviceHardening.md](deviceHardening.md)
-Cihaz ve tarayıcı güvenliği: Windows / macOS / Linux disk şifreleme, tarayıcı eklentileri, parola yöneticisi kurulumu, VPN & DNS şifreleme, Wi-Fi güvenliği.
+**Cihazını sertleştir:** Telefon ve bilgisayar için disk şifreleme, tarayıcı eklentileri, gizlilik odaklı VPN/DNS seçimleri ve parola yöneticisi kurulumu. Bir kere yaparsın, yıllarca koruma sağlar.
 
 ### 🎣 [phishingBilgilendirme.md](phishingBilgilendirme.md)
-Oltalama saldırısı tanıma ve önleme: URL & e-posta adres analizi, spear phishing / smishing / vishing türleri, deepfake dolandırıcılıkları, gerçek dünya senaryoları.
+**Oltalama (phishing) tuzaklarını tanı:** Sahte bankacılık SMS'i, kurumsal görünümlü e-postalar ve "hesabın askıya alındı" tehditleri. URL analiz yöntemleri ve tuzağa düştükten sonra yapılması gerekenler.
 
 ### 📲 [socialMediaPrivacy.md](socialMediaPrivacy.md)
-Instagram, Twitter/X, LinkedIn, Facebook, TikTok ve WhatsApp için Türkçe arayüz menü yollarıyla adım adım gizlilik ayarları. Varsayılan ayarlar seni değil, platformu korur.
+**Sosyal medya hesaplarını gizli tut:** Instagram, Twitter/X, LinkedIn, Facebook, TikTok ve WhatsApp için Türkçe arayüz üzerinden adım adım gizlilik ayarları. Varsayılan ayarların seni nasıl ifşa ettiğini öğren ve düzelt.
 
 ### 🔓 [dataBreachResponse.md](dataBreachResponse.md)
-Haveibeenpwned çıktısını anlama kılavuzu, sızıntı türüne göre öncelik sırası, Türkiye'de kimlik hırsızlığı kontrolü (e-Devlet, Findeks/KKB), credential stuffing nedir ve kalıcı koruma adımları.
+**Bilgilerin sızdı mı? Ne yapacaksın?:** Haveibeenpwned çıktısını nasıl okuyacağını, hangi sızıntı türünün ne anlama geldiğini ve Türkiye'de kimlik hırsızlığına karşı (e-Devlet, Findeks/KKB) hangi adımları atacağını öğren.
 
 ### 📶 [publicWifi.md](publicWifi.md)
-Ortak ağlarda gerçek risk analizi: Evil twin, MITM, ARP spoofing saldırıları — abartısız anlatım. VPN seçimi, bağlanmadan önce cihaz ayarları, havalimanı/otel/kafe risk karşılaştırması.
+**Kafede veya havalimanında güvende kal:** Ortak Wi-Fi ağlarındaki gerçek riskleri abartmadan anlatır. Evil twin ve MITM saldırıları nedir, VPN olmadan minimum ne yapmalısın, hangi işlemleri ertelemelisin?
 
 ### 👨‍👩‍👧 [parentalGuide.md](parentalGuide.md)
-Yaş gruplarına göre online riskler, grooming sürecinin uyarı işaretleri, deepfake sextortion tehdidi, siber zorbalık türleri ve ebeveyn denetim araçları. Çocuğunla bu konuları nasıl konuşacağına dair somut rehber.
+**Çocuğunu internette koru:** Yaş gruplarına göre online riskler, grooming sürecinin uyarı işaretleri, siber zorbalık ve ebeveyn denetim araçları. "Çocuğumla bu konuyu nasıl konuşurum?" sorusuna somut cevaplar.
 
 ### 🎭 [socialEngineeringGercekleri.md](socialEngineeringGercekleri.md)
-"Seni hackliyorum" diyenlerin büyük çoğunluğunun "script kiddie" olduğunu, klasik taktiklerinin (IP tehdidi, kamera erişimi vb.) gerçekte neye karşılık geldiğini ve Türk hukukunda bu fiillerin (TCK 106, 107, 134, 136, 243, 244) hangi cezalarla karşılandığını anlatır. Yakalanma sonrası gerçek hayata etkileri.
+**Seni tehdit eden kişinin elinde gerçekte ne var?:** "Seni hackliyorum" diyenlerin büyük çoğunluğunun neden boş tehdit (script kiddie) olduğunu, klasik taktiklerini ve bunu yapanların Türk Ceza Kanunu'nda (TCK) karşılaştığı ağır cezaları anlatır.
 
 ### 🚨 [155_911.md](155_911.md)
-Siber kriz protokolü: RAT/hack durumunda dakika dakika ne yapılır, hesap çalındıysa kurtarma adımları, şantaj ve tehdit mesajlarında eylem planı, BTK / Emniyet Siber Suç ihbar kılavuzu.
+**Şantaj veya siber saldırıya uğrarsan ne yaparsın? (Acil Durum):** Sadece acil numaraları değil; RAT/hack durumunda dakika dakika izlenecek yol haritasını ve BTK / Emniyet Siber Suç birimine nasıl ihbarda bulunacağını kapsayan kriz protokolü.
+
+---
+
+### 📱 Telefon mu, Bilgisayar mı?
+
+Her iki cihazda da çalışan adımlar açıkça işaretlenmiştir. Python scriptini çalıştırmak için bilgisayar gerekirken (telefon için olan adımlar da aşağıda anlatıldı), e-posta güvenliği, 2FA kurulumu, tarayıcı ayarları ve ihbar adımları tamamen telefondan da yapılabilir.
 
 ---
 
@@ -138,9 +93,8 @@ Siber kriz protokolü: RAT/hack durumunda dakika dakika ne yapılır, hesap çal
 ✅ 4. Tarayıcını sertleştir                      → deviceHardening.md
 ✅ 5. Phishing tuzaklarını tanımayı öğren        → phishingBilgilendirme.md
 ✅ 6. Sosyal medya gizlilik ayarlarını düzenle   → socialMediaPrivacy.md
-✅ 7. E-postanın sızdırılıp sızdırılmadığını kontrol et → dataBreachResponse.md
+✅ 7. E-postanın sızdırılıp sızdırılmadığını gör → dataBreachResponse.md
 ```
-
 > 📌 Yukarıdaki sıra "önce araçları edin, sonra hesapları kilitle, sonra farkındalık kazan" mantığıyla ilerler. `publicWifi.md`, `parentalGuide.md`, `socialEngineeringGercekleri.md` ve `155_911.md` durumsal rehberlerdir — ihtiyaç anında veya zaman bulduğunda okunabilir.
 
 ### Şimdi Güçlü Parolayı Üretelim - Parola Üreticisini Çalıştır
