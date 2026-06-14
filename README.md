@@ -19,7 +19,9 @@ Bu rehber **sıradan bir kullanıcı** için yazıldı. Teknik bilgin olmasa da 
 
 ### 📱 Rehber için Hangi Cihazı Kullanmalıyım Telefon mu? , Bilgisayar mı?
 
-Bu rehberdeki adımların tamamı hem telefon hem de bilgisayar üzerinden eksiksiz şekilde uygulanabilir. Python scriptini çalıştırmak dahil; şifre güvenliği, 2FA kurulumu, tarayıcı ayarları ve acil durum protokolleri için spesifik bir cihaza bağımlı değilsiniz. Hangi cihaz elinizin altındaysa onunla başlayabilirsiniz.
+Bu rehberdeki adımların büyük çoğunluğu hem telefon hem de bilgisayar üzerinden uygulanabilir: şifre güvenliği, 2FA kurulumu, tarayıcı ayarları ve acil durum protokolleri için spesifik bir cihaza bağımlı değilsiniz. Hangi cihaz elinizin altındaysa onunla başlayabilirsiniz.
+
+Tek istisna `passwordGenerator.py` scriptidir — bilgisayarda doğrudan Python ile çalışır, telefonda ise ek olarak Pydroid 3 gibi bir Python yorumlayıcısı kurmanız gerekir (aşağıda adım adım anlatılıyor). Bu küçük ek adım dışında, hiçbir rehber bilgisayar zorunluluğu getirmez.
 
 ---
 
@@ -36,7 +38,7 @@ Bu rehberdeki adımların tamamı hem telefon hem de bilgisayar üzerinden eksik
 | 5 | [📲 socialMediaPrivacy.md](socialMediaPrivacy.md) | Sosyal medya gizlilik ayarları |
 | 6 | [🔓 dataBreachResponse.md](dataBreachResponse.md) | Veri sızıntısı sonrası eylem planı |
 | 7 | [📶 publicWifi.md](publicWifi.md) | Ortak Wi-Fi güvenliği |
-| 8 | [👨‍👩‍👧 parentalGuide.md](parentalGuide.md) | Ebeveyn rehberi & child güvenliği |
+| 8 | [👨‍👩‍👧 parentalGuide.md](parentalGuide.md) | Ebeveyn rehberi & çocuk güvenliği |
 
 ### Bilgi & Kriz Anı Rehberleri
 
@@ -49,35 +51,35 @@ Bu rehberdeki adımların tamamı hem telefon hem de bilgisayar üzerinden eksik
 
 ### 🗂️ Rehberlerin Kısa Açıklamaları
 
-### 🔑 [passwordGenerator.py](passwordGenerator.py)
+#### 🔑 [passwordGenerator.py](passwordGenerator.py)
 **Kendi şifre üreticini yaz:** Hazır bir servise güvenmek zorunda değilsin. Python ile çalışan, kriptografik olarak güvenli, entropi skoru gösteren ve parolayı otomatik panona kopyalayan bir araç. Tamamen senin bilgisayarında çalışır, hiçbir yere veri göndermez.
 > ⚠️ **ÖNEMLİ:** Kodu sadece resmi kaynaktan indirdiğinizden emin olun. Üçüncü kişilerin dağıttığı programlara asla güvenmeyin.
 
-### 📧 [mailProtect.md](mailProtect.md)
+#### 📧 [mailProtect.md](mailProtect.md)
 **E-postanı ve hesaplarını kilitle:** 2FA nedir, nasıl kurulur, Passkey ne işe yarar, e-posta alias neden hayat kurtarır? Gmail, Outlook ve ProtonMail için adım adım kurulum ve kurtarma zinciri oluşturma rehberi.
 
-### 💻 [deviceHardening.md](deviceHardening.md)
+#### 💻 [deviceHardening.md](deviceHardening.md)
 **Cihazını sertleştir:** Telefon ve bilgisayar için disk şifreleme, tarayıcı eklentileri, gizlilik odaklı VPN/DNS seçimleri ve parola yöneticisi kurulumu. Bir kere yaparsın, yıllarca koruma sağlar.
 
-### 🎣 [phishingBilgilendirme.md](phishingBilgilendirme.md)
+#### 🎣 [phishingBilgilendirme.md](phishingBilgilendirme.md)
 **Oltalama (phishing) tuzaklarını tanı:** Sahte bankacılık SMS'i, kurumsal görünümlü e-postalar ve "hesabın askıya alındı" tehditleri. URL analiz yöntemleri ve tuzağa düştükten sonra yapılması gerekenler.
 
-### 📲 [socialMediaPrivacy.md](socialMediaPrivacy.md)
+#### 📲 [socialMediaPrivacy.md](socialMediaPrivacy.md)
 **Sosyal medya hesaplarını gizli tut:** Instagram, Twitter/X, LinkedIn, Facebook, TikTok ve WhatsApp için Türkçe arayüz üzerinden adım adım gizlilik ayarları. Varsayılan ayarların seni nasıl ifşa ettiğini öğren ve düzelt.
 
-### 🔓 [dataBreachResponse.md](dataBreachResponse.md)
+#### 🔓 [dataBreachResponse.md](dataBreachResponse.md)
 **Bilgilerin sızdı mı? Ne yapacaksın?:** Haveibeenpwned çıktısını nasıl okuyacağını, hangi sızıntı türünün ne anlama geldiğini ve Türkiye'de kimlik hırsızlığına karşı (e-Devlet, Findeks/KKB) hangi adımları atacağını öğren.
 
-### 📶 [publicWifi.md](publicWifi.md)
+#### 📶 [publicWifi.md](publicWifi.md)
 **Kafede veya havalimanında güvende kal:** Ortak Wi-Fi ağlarındaki gerçek riskleri abartmadan anlatır. Evil twin ve MITM saldırıları nedir, VPN olmadan minimum ne yapmalısın, hangi işlemleri ertelemelisin?
 
-### 👨‍👩‍👧 [parentalGuide.md](parentalGuide.md)
+#### 👨‍👩‍👧 [parentalGuide.md](parentalGuide.md)
 **Çocuğunu internette koru:** Yaş gruplarına göre online riskler, grooming sürecinin uyarı işaretleri, siber zorbalık ve ebeveyn denetim araçları. "Çocuğumla bu konuyu nasıl konuşurum?" sorusuna somut cevaplar.
 
-### 🎭 [socialEngineeringGercekleri.md](socialEngineeringGercekleri.md)
+#### 🎭 [socialEngineeringGercekleri.md](socialEngineeringGercekleri.md)
 **Seni tehdit eden kişinin elinde gerçekte ne var?:** "Seni hackliyorum" diyenlerin büyük çoğunluğunun neden boş tehdit (script kiddie) olduğunu, klasik taktiklerini ve bunu yapanların Türk Ceza Kanunu'nda (TCK) karşılaştığı ağır cezaları anlatır.
 
-### 🚨 [155_911.md](155_911.md)
+#### 🚨 [155_911.md](155_911.md)
 **Şantaj veya siber saldırıya uğrarsan ne yaparsın? (Acil Durum):** Sadece acil numaraları değil; RAT/hack durumunda dakika dakika izlenecek yol haritasını ve BTK / Emniyet Siber Suç birimine nasıl ihbarda bulunacağını kapsayan kriz protokolü.
 
 ---
@@ -95,7 +97,7 @@ Bu rehberdeki adımların tamamı hem telefon hem de bilgisayar üzerinden eksik
 ✅ 6. Sosyal medya gizlilik ayarlarını düzenle   → socialMediaPrivacy.md
 ✅ 7. E-postanın sızdırılıp sızdırılmadığını gör → dataBreachResponse.md
 ```
-> 📌 Yukarıdaki sıra "önce araçları edin, sonra hesapları kilitle, sonra farkındalık kazan" mantığıyla ilerler. `publicWifi.md`, `parentalGuide.md`, `socialEngineeringGercekleri.md` ve `155_911.md` durumsal rehberlerdir — ihtiyaç anında veya zaman bulduğunda okunabilir.
+> 📌 Yukarıdaki numaralar, yukarıdaki **İçindekiler tablosundaki dosya sıra numaralarıyla aynı değildir** — bu liste "yapılacak işler" sırasıdır, bazı adımlar (2 ve 4) aynı dosyanın (`deviceHardening.md`) farklı bölümlerine yönlenir. Sıra mantığı: "önce araçları edin, sonra hesapları kilitle, sonra farkındalık kazan." `publicWifi.md`, `parentalGuide.md`, `socialEngineeringGercekleri.md` ve `155_911.md` durumsal rehberlerdir — ihtiyaç anında veya zaman bulduğunda okunabilir.
 
 ---
 
@@ -169,7 +171,7 @@ Kendi dijital güvenliğinizi sağlamak ve dijital hayatınızı kontrol altınd
 
 ---
 
-## 🪙 Crypto Support (Kripto İle Ödeme&Destek)
+## 🪙 Crypto Support (Kripto İle Destek)
 
 Bu rehberin bağımsız kalmasını desteklemek, küresel ve sansürsüz bir şekilde bağışta bulunmak isterseniz aşağıdaki **USDT** adresini kullanabilirsiniz. Blockchain ağının doğası gereği yapacağınız destekler tamamen güvenli ve taraflar arası gizlilik prensibine uygundur:
 
