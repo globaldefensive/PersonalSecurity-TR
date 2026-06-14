@@ -82,22 +82,6 @@ PR açıklamasına ne değiştirdiğini ve neden değiştirdiğini yaz.
 
 ---
 
-## 💡 Katkı Fikirleri
-
-Aşağıdaki konularda katkıya açığız:
-
-- [ ] Android / iOS için ek cihaz sertleştirme adımları (yeni OS sürümleriyle güncel tutma)
-- [ ] Şifreli not alma uygulamaları karşılaştırması
-- [ ] Güvenli dosya silme rehberi
-- [ ] `passwordGenerator.py` için kelime listesi tabanlı passphrase modu
-- [ ] İngilizce (EN) ve Rusça (RU) çeviriler
-- [ ] Diğer ülkeler için yerel siber suç ihbar kanalları (TR dışı kullanıcılar için ek bölüm)
-- [ ] Discord / Telegram özelinde gizlilik ve güvenlik rehberi
-- [ ] Kripto cüzdan güvenliği (seed phrase saklama, donanım cüzdanlar)
-- [ ] socialEngineeringGercekleri.md için güncel dolandırıcılık örnekleri ve vaka analizleri
-
----
-
 ## ⚖️ Davranış Kuralları
 
 - Saygılı ve yapıcı ol
