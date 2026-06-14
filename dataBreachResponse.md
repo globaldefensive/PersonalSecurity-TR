@@ -251,7 +251,7 @@ Sızıntı olan verinin zararı vermesi için önce o verinin olması lazım.
 | Şifre sızdı | Haveibeenpwned kontrol + şifre değiştir | haveibeenpwned.com |
 | Kredi kartı sızdı | Bankayı ara, kartı dondur | Bankanın müşteri hizmetleri |
 | Kimlik hırsızlığı şüphesi | e-Devlet + Findeks kontrol | findeks.com |
-| Hesap ele geçirildi | mailProtect.md → Bölüm 5 | Bu repo |
+| Hesap ele geçirildi | mailProtect.md → Bölüm 5 veya 155_911.md → Bölüm 2 | Bu repo |
 | Siber şikayet | Emniyet Siber Suçlar | siber.pol.tr |
 
 ---

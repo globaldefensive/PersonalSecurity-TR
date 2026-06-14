@@ -1,19 +1,19 @@
 # 🤝 Katkı Rehberi
 
-Self-Defense projesine katkıda bulunmak istediğin için teşekkürler!  
+PersonalSecurity-TR projesine katkıda bulunmak istediğin için teşekkürler!
 Bu belge süreci adım adım açıklar.
 
 ---
 
-## 🚀 Nasıl Katkıda Bulunurim?
+## 🚀 Nasıl Katkıda Bulunurum?
 
 ### 1. Fork ve Clone
 
 ```bash
 # Repoyu fork et (GitHub arayüzünden)
-git clone https://github.com/KULLANICI_ADIN/Self-Defense.git
-cd Self-Defense
-git remote add upstream https://github.com/globaldefensive/Self-Defense.git
+git clone https://github.com/KULLANICI_ADIN/PersonalSecurity-TR.git
+cd PersonalSecurity-TR
+git remote add upstream https://github.com/globaldefensive/PersonalSecurity-TR.git
 ```
 
 ### 2. Yeni Dal Aç
@@ -38,7 +38,7 @@ git push origin feat/yeni-ozellik
 
 ### 5. Pull Request Aç
 
-GitHub'da **Compare & pull request** butonuna tıkla.  
+GitHub'da **Compare & pull request** butonuna tıkla.
 PR açıklamasına ne değiştirdiğini ve neden değiştirdiğini yaz.
 
 ---
@@ -52,6 +52,8 @@ PR açıklamasına ne değiştirdiğini ve neden değiştirdiğini yaz.
 - Teknik terimler ilk kullanımda açıklanmalı
 - Kaynak varsa dipnot veya bağlantı ekle
 - Satır uzunluğu: 120 karakter altında tut
+- Yeni bir dosya eklersen, README.md'deki **İçindekiler** tablosuna ve **Kısa Özet Açıklamaları** bölümüne de ekle
+- Başka bir dosyaya atıfta bulunuyorsan göreli link kullan (örn. `[mailProtect.md](mailProtect.md)`)
 
 ### Python Dosyaları
 
@@ -82,9 +84,17 @@ PR açıklamasına ne değiştirdiğini ve neden değiştirdiğini yaz.
 
 ## 💡 Katkı Fikirleri
 
-Aşağıdaki konularda ve eklemek istediğiniz konular varsa katkıya açığız:
+Aşağıdaki konularda katkıya açığız:
 
-- [ ] Android / iOS cihaz sertleştirme rehberi
+- [ ] Android / iOS için ek cihaz sertleştirme adımları (yeni OS sürümleriyle güncel tutma)
+- [ ] Şifreli not alma uygulamaları karşılaştırması
+- [ ] Güvenli dosya silme rehberi
+- [ ] `passwordGenerator.py` için kelime listesi tabanlı passphrase modu
+- [ ] İngilizce (EN) ve Rusça (RU) çeviriler
+- [ ] Diğer ülkeler için yerel siber suç ihbar kanalları (TR dışı kullanıcılar için ek bölüm)
+- [ ] Discord / Telegram özelinde gizlilik ve güvenlik rehberi
+- [ ] Kripto cüzdan güvenliği (seed phrase saklama, donanım cüzdanlar)
+- [ ] socialEngineeringGercekleri.md için güncel dolandırıcılık örnekleri ve vaka analizleri
 
 ---
 
