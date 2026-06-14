@@ -17,9 +17,9 @@ Bu rehber **sıradan bir kullanıcı** için yazıldı. Teknik bilgin olmasa da 
 
 ---
 
-### 📱 Rehber için Hangi Cihazı Kullanmalıyım Telefon mu? , Bilgisayar mı?
+### 📱 Rehber için Hangi Cihazı Kullanmalıyım Telefon mu? , Tablet mi?, Bilgisayar mı?
 
-Bu rehberdeki adımların büyük çoğunluğu hem telefon hem de bilgisayar üzerinden uygulanabilir: şifre güvenliği, 2FA kurulumu, tarayıcı ayarları ve acil durum protokolleri için spesifik bir cihaza bağımlı değilsiniz. Hangi cihaz elinizin altındaysa onunla başlayabilirsiniz.
+Bu rehberdeki adımların büyük çoğunluğu hem telefon hem bilgisayar hem de tablet üzerinden uygulanabilir: şifre güvenliği, 2FA kurulumu, tarayıcı ayarları ve acil durum protokolleri için spesifik bir cihaza bağımlı değilsiniz. Hangi cihaz elinizin altındaysa onunla başlayabilirsiniz.
 
 Tek istisna `passwordGenerator.py` scriptidir — bilgisayarda doğrudan Python ile çalışır, telefonda ise ek olarak Pydroid 3 gibi bir Python yorumlayıcısı kurmanız gerekir (aşağıda adım adım anlatılıyor). Bu küçük ek adım dışında, hiçbir rehber bilgisayar zorunluluğu getirmez.
 
